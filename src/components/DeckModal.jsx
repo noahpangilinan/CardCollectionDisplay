@@ -100,6 +100,11 @@ export default function DeckModal({ deck, onClose, onPrev, onNext, position }) {
                 Deck Collect ↗
               </a>
             )}
+            {deck.hub && (
+              <a className="source" href={deck.hub} target="_blank" rel="noreferrer">
+                PlayingCardHub ↗
+              </a>
+            )}
             {deck.source && (
               <a className="source" href={deck.source} target="_blank" rel="noreferrer">
                 Shop ↗

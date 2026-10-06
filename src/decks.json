@@ -5,10 +5,12 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/garden-gnome-photo.jpg",
-    "image": "/decks/garden-gnome.jpg",
+    "image": "/decks/garden-gnome-front.jpg",
     "source": "https://www.playingcarddecks.com/products/bicycle-garden-gnome-playing-cards",
     "fit": "cover",
-    "product": "/decks/garden-gnome.jpg"
+    "product": "/decks/garden-gnome.jpg",
+    "front": "/decks/garden-gnome-front.jpg",
+    "hub": "https://playingcardhub.com/decks/01kjk04rx55ysgeqq2382ms07e-garden-gnome-bicycle"
   },
   {
     "id": "orange-rider-back",
@@ -16,10 +18,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/orange-rider-back-photo.jpg",
-    "image": "/decks/orange-rider-back-photo.jpg",
+    "image": "/decks/orange-rider-back-front.jpg",
     "source": "https://www.playingcarddecks.com/products/orange-rider-back-bicycle-playing-cards",
     "fit": "cover",
-    "product": "/decks/orange-rider-back.jpg"
+    "product": "/decks/orange-rider-back.jpg",
+    "front": "/decks/orange-rider-back-front.jpg",
+    "back": "/decks/orange-rider-back-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgryf7xbsbj01g5ajdrtb57d-rider-back-orange-bicycle-ohio"
   },
   {
     "id": "noc-pro-navy-blue",
@@ -37,25 +42,31 @@
   },
   {
     "id": "metalluxe",
-    "name": "MetalLuxe",
+    "name": "MetalLuxe Black & Gold",
     "brand": "Bicycle",
     "qty": 3,
     "photo": "/decks/metalluxe-photo.jpg",
-    "image": "/decks/metalluxe-photo.jpg",
+    "image": "/decks/metalluxe-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/metalluxe-front.jpg",
+    "back": "/decks/metalluxe-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01k3n46dzvxqapmttf5mj38sa4-metalluxe-black-and-gold"
   },
   {
     "id": "tactical-field",
-    "name": "Tactical Field",
+    "name": "Tactical Field (Navy)",
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/tactical-field-photo.jpg",
-    "image": "/decks/tactical-field-photo.jpg",
+    "image": "/decks/tactical-field-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/tactical-field-front.jpg",
+    "back": "/decks/tactical-field-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgsd207m4e2kn95fmmyp7hdc-tactical-field-navy-blue-bicycle"
   },
   {
     "id": "gold-black-bicycle",
@@ -70,14 +81,17 @@
   },
   {
     "id": "lonely-wolf",
-    "name": "Lonely Wolf",
+    "name": "Lonely Wolf (Purple)",
     "brand": "Lonely Wolf",
     "qty": 1,
     "photo": "/decks/lonely-wolf-photo.jpg",
-    "image": "/decks/lonely-wolf.jpg",
+    "image": "/decks/lonely-wolf-front.jpg",
     "source": "https://www.playingcarddecks.com/products/lonely-wolf-purple-playing-cards-mpc",
-    "fit": "contain",
-    "product": "/decks/lonely-wolf.jpg"
+    "fit": "cover",
+    "product": "/decks/lonely-wolf.jpg",
+    "front": "/decks/lonely-wolf-front.jpg",
+    "back": "/decks/lonely-wolf-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs6prafcz1hvbaqnkcedx5j-lonely-wolf"
   },
   {
     "id": "panda",
@@ -99,10 +113,13 @@
     "brand": "EPCC",
     "qty": 1,
     "photo": "/decks/vitreous-photo.jpg",
-    "image": "/decks/vitreous-photo.jpg",
+    "image": "/decks/vitreous-front.jpg",
     "source": "https://www.playingcarddecks.com/products/vitreous-playing-cards-epcc",
     "fit": "cover",
-    "product": "/decks/vitreous.jpg"
+    "product": "/decks/vitreous.jpg",
+    "front": "/decks/vitreous-front.jpg",
+    "back": "/decks/vitreous-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs0xhq3t31484xepn2wspxn-vitreous"
   },
   {
     "id": "140th-anniversary",
@@ -139,10 +156,12 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/ice-dragon-photo.jpg",
-    "image": "/decks/ice-dragon-photo.jpg",
+    "image": "/decks/ice-dragon-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/ice-dragon-front.jpg",
+    "hub": "https://playingcardhub.com/decks/01kz9ncvg1vr68zgj7kg59pgcx-bicycle-ice-dragon"
   },
   {
     "id": "emerald-bicycle",
@@ -174,10 +193,13 @@
     "brand": "Bicycle",
     "qty": 2,
     "photo": "/decks/cocktail-recipes-photo.jpg",
-    "image": "/decks/cocktail-recipes.jpg",
+    "image": "/decks/cocktail-recipes-front.jpg",
     "source": "https://www.playingcarddecks.com/products/bicycle-cocktail-playing-cards-raise-a-glass-to-style-and-sophistication",
     "fit": "cover",
-    "product": "/decks/cocktail-recipes.jpg"
+    "product": "/decks/cocktail-recipes.jpg",
+    "front": "/decks/cocktail-recipes-front.jpg",
+    "back": "/decks/cocktail-recipes-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgsdssk9gamk7220ek7bdbpr-cocktail-recipes-bicycle"
   },
   {
     "id": "elites",
@@ -250,21 +272,27 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/ice-photo.jpg",
-    "image": "/decks/ice.jpg",
+    "image": "/decks/ice-front.jpg",
     "source": "https://www.playingcarddecks.com/products/ice-bicycle-playing-cards",
-    "fit": "contain",
-    "product": "/decks/ice.jpg"
+    "fit": "cover",
+    "product": "/decks/ice.jpg",
+    "front": "/decks/ice-front.jpg",
+    "back": "/decks/ice-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs22f8hf45x4z6bj9rfabvy-ice-bicycle"
   },
   {
     "id": "monarchs",
-    "name": "Monarchs",
+    "name": "Monarchs (Blue)",
     "brand": "theory11",
     "qty": 1,
     "photo": "/decks/monarchs-photo.jpg",
-    "image": "/decks/monarchs.jpg",
+    "image": "/decks/monarchs-front.jpg",
     "source": "https://www.playingcarddecks.com/products/monarchs-standard-blue-deck-playing-cards-poker-size-theory-11-uspcc-new-sealed",
     "fit": "cover",
-    "product": "/decks/monarchs.jpg"
+    "product": "/decks/monarchs.jpg",
+    "front": "/decks/monarchs-front.jpg",
+    "back": "/decks/monarchs-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs2r8f71hzh85y1nzymbpmx-monarchs-blue-v2"
   },
   {
     "id": "aristocrat",
@@ -297,10 +325,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/green-rider-back-photo.jpg",
-    "image": "/decks/green-rider-back-photo.jpg",
+    "image": "/decks/green-rider-back-front.jpg",
     "source": "https://www.playingcarddecks.com/products/green-back-deck-bicycle-playing-cards-poker-size-uspcc-limited-edtion-custom-new",
     "fit": "cover",
-    "product": "/decks/green-rider-back.jpg"
+    "product": "/decks/green-rider-back.jpg",
+    "front": "/decks/green-rider-back-front.jpg",
+    "back": "/decks/green-rider-back-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs2pz6t69ghgkzf05eywv5t-rider-back-green-bicycle"
   },
   {
     "id": "noc-pro-jet-black",
@@ -333,10 +364,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/muralis-photo.jpg",
-    "image": "/decks/muralis.jpg",
+    "image": "/decks/muralis-front.jpg",
     "source": "https://www.playingcarddecks.com/products/muralis-bicycle-playing-cards",
-    "fit": "contain",
-    "product": "/decks/muralis.jpg"
+    "fit": "cover",
+    "product": "/decks/muralis.jpg",
+    "front": "/decks/muralis-front.jpg",
+    "back": "/decks/muralis-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs7ddx41k2bnejzye85hxec-muralis-bicycle"
   },
   {
     "id": "fyrebird",
@@ -344,10 +378,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/fyrebird-photo.jpg",
-    "image": "/decks/fyrebird.jpg",
+    "image": "/decks/fyrebird-front.jpg",
     "source": "https://www.playingcarddecks.com/products/fyrebird-bicycle-playing-cards",
-    "fit": "contain",
-    "product": "/decks/fyrebird.jpg"
+    "fit": "cover",
+    "product": "/decks/fyrebird.jpg",
+    "front": "/decks/fyrebird-front.jpg",
+    "back": "/decks/fyrebird-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs59c0ssv9htxyp7m7mpjrj-fyrebird-bicycle"
   },
   {
     "id": "marquis",
@@ -355,10 +392,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/marquis-photo.jpg",
-    "image": "/decks/marquis.jpg",
+    "image": "/decks/marquis-front.jpg",
     "source": "https://www.playingcarddecks.com/products/marquis-bicycle-playing-cards",
-    "fit": "contain",
-    "product": "/decks/marquis.jpg"
+    "fit": "cover",
+    "product": "/decks/marquis.jpg",
+    "front": "/decks/marquis-front.jpg",
+    "back": "/decks/marquis-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs7dvajedmj13cxp2yygtf2-marquis-bicycle"
   },
   {
     "id": "cartelago",
@@ -366,10 +406,13 @@
     "brand": "Cartelago",
     "qty": 1,
     "photo": "/decks/cartelago-photo.jpg",
-    "image": "/decks/cartelago-photo.jpg",
+    "image": "/decks/cartelago-front.jpg",
     "source": "https://www.playingcarddecks.com/products/cartelago-playing-cards-uspcc",
     "fit": "cover",
-    "product": "/decks/cartelago.jpg"
+    "product": "/decks/cartelago.jpg",
+    "front": "/decks/cartelago-front.jpg",
+    "back": "/decks/cartelago-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs6k15a1dqzpk0x1r78xx1b-cartelago"
   },
   {
     "id": "pastel-blue",
@@ -377,10 +420,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/pastel-blue-photo.jpg",
-    "image": "/decks/pastel-blue.jpg",
+    "image": "/decks/pastel-blue-front.jpg",
     "source": "https://www.playingcarddecks.com/products/bicycle-pastel-blue-playing-cards",
     "fit": "cover",
-    "product": "/decks/pastel-blue.jpg"
+    "product": "/decks/pastel-blue.jpg",
+    "front": "/decks/pastel-blue-front.jpg",
+    "back": "/decks/pastel-blue-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01kx1ewjzrdk60vjpb6sg6xt74-blue-pastel"
   },
   {
     "id": "cherry-casino-red",
@@ -402,10 +448,12 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/spellbound-photo.jpg",
-    "image": "/decks/spellbound.jpg",
+    "image": "/decks/spellbound-front.jpg",
     "source": "https://www.playingcarddecks.com/products/bicycle-spellbound-playing-cards-roll-initiative-play-with-power",
-    "fit": "contain",
-    "product": "/decks/spellbound.jpg"
+    "fit": "cover",
+    "product": "/decks/spellbound.jpg",
+    "front": "/decks/spellbound-front.jpg",
+    "hub": "https://playingcardhub.com/decks/01jxz5f6bt4jff36wn92c3eckj-spellbound"
   },
   {
     "id": "year-of-the-snake",
@@ -452,10 +500,13 @@
     "brand": "Horse & Dragon",
     "qty": 1,
     "photo": "/decks/horse-dragon-brewing-photo.jpg",
-    "image": "/decks/horse-dragon-brewing-photo.jpg",
+    "image": "/decks/horse-dragon-brewing-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/horse-dragon-brewing-front.jpg",
+    "back": "/decks/horse-dragon-brewing-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jsytr5pwdde116jbfzptec2b-horse-dragon-brewing-company"
   },
   {
     "id": "under-the-sea",
@@ -463,10 +514,12 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/under-the-sea-photo.jpg",
-    "image": "/decks/under-the-sea.jpg",
+    "image": "/decks/under-the-sea-front.jpg",
     "source": "https://www.playingcarddecks.com/products/bicycle-under-the-sea-playing-cards",
     "fit": "cover",
-    "product": "/decks/under-the-sea.jpg"
+    "product": "/decks/under-the-sea.jpg",
+    "front": "/decks/under-the-sea-front.jpg",
+    "hub": "https://playingcardhub.com/decks/01kr62zefz85vjww99150jkdzd-under-the-sea"
   },
   {
     "id": "pink-rider-back",
@@ -474,10 +527,12 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/pink-rider-back-photo.jpg",
-    "image": "/decks/pink-rider-back-photo.jpg",
+    "image": "/decks/pink-rider-back-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/pink-rider-back-front.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs22amcqn3rm7fbpp3gv31j-rider-back-fashion-pink"
   },
   {
     "id": "cherry-casino-monte-carlo",
@@ -498,10 +553,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/st-ssy-photo.jpg",
-    "image": "/decks/st-ssy-photo.jpg",
+    "image": "/decks/st-ssy-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/st-ssy-front.jpg",
+    "back": "/decks/st-ssy-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs2qm2zcsavzww4bdvmca0j-stussy-bicycle"
   },
   {
     "id": "prototype",
@@ -527,14 +585,17 @@
   },
   {
     "id": "solokid",
-    "name": "Solokid",
+    "name": "Solokid Rainbow Dream",
     "brand": "Solokid",
     "qty": 1,
     "photo": "/decks/solokid-photo.jpg",
-    "image": "/decks/solokid-photo.jpg",
+    "image": "/decks/solokid-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/solokid-front.jpg",
+    "back": "/decks/solokid-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs8f1qyta2739ssrt3djzv8-solokid-rainbow-dream-purple-blue"
   },
   {
     "id": "royale",
@@ -542,10 +603,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/royale-photo.jpg",
-    "image": "/decks/royale-photo.jpg",
+    "image": "/decks/royale-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/royale-front.jpg",
+    "back": "/decks/royale-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs5e9cq14dw753h2c232aqy-royale-bicycle"
   },
   {
     "id": "hello-kitty",
@@ -567,10 +631,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/yellow-rider-back-photo.jpg",
-    "image": "/decks/yellow-rider-back-photo.jpg",
+    "image": "/decks/yellow-rider-back-front.jpg",
     "source": "https://www.playingcarddecks.com/products/yellow-rider-back-bicycle-playing-cards",
     "fit": "cover",
-    "product": "/decks/yellow-rider-back.jpg"
+    "product": "/decks/yellow-rider-back.jpg",
+    "front": "/decks/yellow-rider-back-front.jpg",
+    "back": "/decks/yellow-rider-back-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgryfawx9n1e6sqw69qn3ks6-rider-back-yellow-bicycle-ohio"
   },
   {
     "id": "cherry-casino-silver",
@@ -592,10 +659,13 @@
     "brand": "Pure Imagination",
     "qty": 1,
     "photo": "/decks/cherry-casino-black-hawk-photo.jpg",
-    "image": "/decks/cherry-casino-black-hawk-photo.jpg",
+    "image": "/decks/cherry-casino-black-hawk-front.jpg",
     "source": "https://www.playingcarddecks.com/products/cherry-casino-house-deck-black-hawk-playing-cards-uspcc",
     "fit": "cover",
-    "product": "/decks/cherry-casino-black-hawk.jpg"
+    "product": "/decks/cherry-casino-black-hawk.jpg",
+    "front": "/decks/cherry-casino-black-hawk-front.jpg",
+    "back": "/decks/cherry-casino-black-hawk-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs1dacea0a34js9zrw3h6ha-cherry-casino-v3-black-hawk"
   },
   {
     "id": "tally-ho-2023",
@@ -663,10 +733,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/neon-photo.jpg",
-    "image": "/decks/neon-photo.jpg",
+    "image": "/decks/neon-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/neon-front.jpg",
+    "back": "/decks/neon-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jsypaawvdvetfmh9jk05yb50-neon"
   },
   {
     "id": "navigators",
@@ -732,14 +805,17 @@
   },
   {
     "id": "neptune-s-graveyard",
-    "name": "Neptune's Graveyard",
+    "name": "Neptune's Graveyard (Siren)",
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/neptune-s-graveyard-photo.jpg",
-    "image": "/decks/neptune-s-graveyard.jpg",
+    "image": "/decks/neptune-s-graveyard-front.jpg",
     "source": "https://www.playingcarddecks.com/products/neptunes-graveyard-bicycle-playing-cards",
-    "fit": "contain",
-    "product": "/decks/neptune-s-graveyard.jpg"
+    "fit": "cover",
+    "product": "/decks/neptune-s-graveyard.jpg",
+    "front": "/decks/neptune-s-graveyard-front.jpg",
+    "back": "/decks/neptune-s-graveyard-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgsb05ss26w8k9k3v97ayn0r-neptunes-graveyard-siren-bicycle"
   },
   {
     "id": "sweet-peas",
@@ -747,10 +823,13 @@
     "brand": "Farm Can",
     "qty": 1,
     "photo": "/decks/sweet-peas-photo.jpg",
-    "image": "/decks/sweet-peas-photo.jpg",
+    "image": "/decks/sweet-peas-front.jpg",
     "source": "https://www.playingcarddecks.com/products/sweet-peas-playing-cards-uspcc",
     "fit": "cover",
-    "product": "/decks/sweet-peas.jpg"
+    "product": "/decks/sweet-peas.jpg",
+    "front": "/decks/sweet-peas-front.jpg",
+    "back": "/decks/sweet-peas-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgsaf055zgbf5mhbzkfagh2q-sweet-peas"
   },
   {
     "id": "hidden",
@@ -758,10 +837,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/hidden-photo.jpg",
-    "image": "/decks/hidden.jpg",
+    "image": "/decks/hidden-front.jpg",
     "source": "https://www.playingcarddecks.com/products/hidden-bicycle-playing-cards",
-    "fit": "contain",
-    "product": "/decks/hidden.jpg"
+    "fit": "cover",
+    "product": "/decks/hidden.jpg",
+    "front": "/decks/hidden-front.jpg",
+    "back": "/decks/hidden-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs1vn8y395zp4qtsma8pr22-hidden-bicycle"
   },
   {
     "id": "jean-michel-basquiat",
@@ -811,10 +893,12 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/geometric-bicycle-photo.jpg",
-    "image": "/decks/geometric-bicycle-photo.jpg",
+    "image": "/decks/geometric-bicycle-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/geometric-bicycle-front.jpg",
+    "hub": "https://playingcardhub.com/decks/01k62qcfyt7j2gs9ce251za225-bicycle-bluepink-geometric"
   },
   {
     "id": "low-poly-crystal",
@@ -833,10 +917,13 @@
     "brand": "Bicycle",
     "qty": 2,
     "photo": "/decks/standard-blue-photo.jpg",
-    "image": "/decks/standard-blue.jpg",
+    "image": "/decks/standard-blue-front.jpg",
     "source": "https://www.playingcarddecks.com/products/blue-rider-back-bicycle-playing-cards",
     "fit": "cover",
-    "product": "/decks/standard-blue.jpg"
+    "product": "/decks/standard-blue.jpg",
+    "front": "/decks/standard-blue-front.jpg",
+    "back": "/decks/standard-blue-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs34ya8n5fn7j1m95tq8q6k-rider-back-blue"
   },
   {
     "id": "high-victorian-green",
@@ -936,10 +1023,13 @@
     "brand": "Bicycle",
     "qty": 2,
     "photo": "/decks/standard-red-photo.jpg",
-    "image": "/decks/standard-red-photo.jpg",
+    "image": "/decks/standard-red-front.jpg",
     "source": "https://www.playingcarddecks.com/products/red-rider-back-bicycle-playing-cards",
     "fit": "cover",
-    "product": "/decks/standard-red.jpg"
+    "product": "/decks/standard-red.jpg",
+    "front": "/decks/standard-red-front.jpg",
+    "back": "/decks/standard-red-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs5fph20tzzwpzr0rfverng-rider-back-red"
   },
   {
     "id": "pink-hearts",
@@ -982,10 +1072,13 @@
     "brand": "theory11",
     "qty": 1,
     "photo": "/decks/star-wars-light-side-photo.jpg",
-    "image": "/decks/star-wars-light-side-photo.jpg",
+    "image": "/decks/star-wars-light-side-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/star-wars-light-side-front.jpg",
+    "back": "/decks/star-wars-light-side-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs3fq011nseb3wnhpfn3gpe-star-wars-light-side-v1"
   },
   {
     "id": "aviary",
@@ -1045,10 +1138,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/little-atlantis-photo.jpg",
-    "image": "/decks/little-atlantis-photo.jpg",
+    "image": "/decks/little-atlantis-front.jpg",
     "source": "https://www.playingcarddecks.com/products/little-atlantis-bicycle-deck-playing-cards-poker-size-custom-limited-new-sealed",
     "fit": "cover",
-    "product": "/decks/little-atlantis.jpg"
+    "product": "/decks/little-atlantis.jpg",
+    "front": "/decks/little-atlantis-front.jpg",
+    "back": "/decks/little-atlantis-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs0vn0h3ysx1m8wzh2p1pyg-little-atlantis-bicycle"
   },
   {
     "id": "autumn",
@@ -1056,10 +1152,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/autumn-photo.jpg",
-    "image": "/decks/autumn-photo.jpg",
+    "image": "/decks/autumn-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/autumn-front.jpg",
+    "back": "/decks/autumn-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs0r4hqqt08j4etkhvk095f-autumn-green-bicycle"
   },
   {
     "id": "verdana",
@@ -1067,10 +1166,13 @@
     "brand": "LPCC",
     "qty": 1,
     "photo": "/decks/verdana-photo.jpg",
-    "image": "/decks/verdana-photo.jpg",
+    "image": "/decks/verdana-front.jpg",
     "source": "https://www.playingcarddecks.com/products/verdana-playing-cards-lpcc",
     "fit": "cover",
-    "product": "/decks/verdana.jpg"
+    "product": "/decks/verdana.jpg",
+    "front": "/decks/verdana-front.jpg",
+    "back": "/decks/verdana-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgsacb25tsp70vdmec344azy-verdana"
   },
   {
     "id": "sembras",
@@ -1078,21 +1180,27 @@
     "brand": "theory11",
     "qty": 1,
     "photo": "/decks/sembras-photo.jpg",
-    "image": "/decks/sembras.jpg",
+    "image": "/decks/sembras-front.jpg",
     "source": "https://www.playingcarddecks.com/products/sembras-playing-cards",
     "fit": "cover",
-    "product": "/decks/sembras.jpg"
+    "product": "/decks/sembras.jpg",
+    "front": "/decks/sembras-front.jpg",
+    "back": "/decks/sembras-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgsbk7ja1vcps9aq5accr6dp-sembras"
   },
   {
     "id": "sunburst-koi",
-    "name": "Sunburst Koi",
+    "name": "Mermaid Back (Coral)",
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/sunburst-koi-photo.jpg",
-    "image": "/decks/sunburst-koi-photo.jpg",
+    "image": "/decks/sunburst-koi-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/sunburst-koi-front.jpg",
+    "back": "/decks/sunburst-koi-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs22fzxetenth24v3j3pwsq-mermaid-coral-bicycle"
   },
   {
     "id": "unicorns",
@@ -1160,10 +1268,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/vintage-photo.jpg",
-    "image": "/decks/vintage-photo.jpg",
+    "image": "/decks/vintage-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/vintage-front.jpg",
+    "back": "/decks/vintage-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01kb0knvv3zgj405s9t48hj5g4-vintage-classic-bicycle-red-seal"
   },
   {
     "id": "green-gremlin",
@@ -1219,10 +1330,12 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/shin-lim-photo.jpg",
-    "image": "/decks/shin-lim.jpg",
+    "image": "/decks/shin-lim-front.jpg",
     "source": "https://www.playingcarddecks.com/products/shin-lim-bicycle-playing-cards",
-    "fit": "contain",
-    "product": "/decks/shin-lim.jpg"
+    "fit": "cover",
+    "product": "/decks/shin-lim.jpg",
+    "front": "/decks/shin-lim-front.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs9mctqvenb7mw1cec08pk5-shin-lim-bicycle"
   },
   {
     "id": "midway-gardens",
@@ -1244,10 +1357,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/stargazer-observatory-photo.jpg",
-    "image": "/decks/stargazer-observatory.jpg",
+    "image": "/decks/stargazer-observatory-front.jpg",
     "source": "https://www.playingcarddecks.com/products/stargazer-observatory-bicycle-playing-cards",
-    "fit": "contain",
-    "product": "/decks/stargazer-observatory.jpg"
+    "fit": "cover",
+    "product": "/decks/stargazer-observatory.jpg",
+    "front": "/decks/stargazer-observatory-front.jpg",
+    "back": "/decks/stargazer-observatory-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs7de0z95st0xhktzcy61bv-stargazer-observatory-bicycle"
   },
   {
     "id": "ramen-heads",
@@ -1269,10 +1385,13 @@
     "brand": "theory11",
     "qty": 1,
     "photo": "/decks/voyager-photo.jpg",
-    "image": "/decks/voyager.jpg",
+    "image": "/decks/voyager-front.jpg",
     "source": "https://www.playingcarddecks.com/products/voyager-playing-cards-uspcc",
     "fit": "cover",
-    "product": "/decks/voyager.jpg"
+    "product": "/decks/voyager.jpg",
+    "front": "/decks/voyager-front.jpg",
+    "back": "/decks/voyager-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs244nc9g1zk88d4jjywhtp-voyager"
   },
   {
     "id": "the-beatles",

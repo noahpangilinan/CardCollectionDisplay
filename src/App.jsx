@@ -159,7 +159,7 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <p>Deck scans via deckcollect.com · product images via playingcarddecks.com and artofplay.com · shelf photos are my own.</p>
+        <p>Deck scans via deckcollect.com and playingcardhub.com · product images via playingcarddecks.com and artofplay.com · shelf photos are my own.</p>
       </footer>
 
       {openDeck && (
