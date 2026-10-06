@@ -186,11 +186,10 @@
     "qty": 1,
     "photo": "/decks/ice-dragon-photo.jpg",
     "image": "/decks/ice-dragon-front.jpg",
-    "source": null,
     "fit": "cover",
     "product": null,
-    "front": "/decks/ice-dragon-front.jpg",
-    "hub": "https://playingcardhub.com/decks/01kz9ncvg1vr68zgj7kg59pgcx-bicycle-ice-dragon"
+    "hub": "https://playingcardhub.com/decks/01kz9ncvg1vr68zgj7kg59pgcx-bicycle-ice-dragon",
+    "front": "/decks/ice-dragon-front.jpg"
   },
   {
     "id": "jacquard",
@@ -233,15 +232,17 @@
     "hub": "https://playingcardhub.com/decks/01jgsdssk9gamk7220ek7bdbpr-cocktail-recipes-bicycle"
   },
   {
-    "id": "elites",
-    "name": "Elites",
-    "brand": "Elites",
+    "id": "dmc-elites-v5",
+    "name": "DMC Elites (V5)",
+    "brand": "DMC",
     "qty": 1,
-    "photo": "/decks/elites-photo.jpg",
-    "image": "/decks/elites-photo.jpg",
-    "source": null,
+    "photo": "/decks/dmc-elites-v5-photo.jpg",
+    "image": "/decks/dmc-elites-v5-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/dmc-elites-v5-front.jpg",
+    "back": "/decks/dmc-elites-v5-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs5bmyzyzx6frca51mgsjhk-dmc-elites-v5"
   },
   {
     "id": "moon",
@@ -272,14 +273,17 @@
     "deckcollect": "https://deckcollect.com/deck/GShUcnUY"
   },
   {
-    "id": "memento-mori-v2-black",
-    "name": "Memento Mori V2 (Black)",
+    "id": "memento-mori-nxs",
+    "name": "Memento Mori NXS (Nexus)",
     "brand": "Chris Ramsay",
     "qty": 1,
-    "photo": "/decks/memento-mori-v2-black-photo.jpg",
-    "image": "/decks/memento-mori-v2-black-photo.jpg",
+    "photo": "/decks/memento-mori-nxs-photo.jpg",
+    "image": "/decks/memento-mori-nxs-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/memento-mori-nxs-front.jpg",
+    "back": "/decks/memento-mori-nxs-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs24dpcbfwp0w1pqc11jttv-memento-mori-nxs-nexus"
   },
   {
     "id": "memento-mori-v2-white",
@@ -442,9 +446,12 @@
     "brand": "Cartelago",
     "qty": 1,
     "photo": "/decks/cartelago-mirinos-photo.jpg",
-    "image": "/decks/cartelago-mirinos-photo.jpg",
+    "image": "/decks/cartelago-mirinos-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/cartelago-mirinos-front.jpg",
+    "back": "/decks/cartelago-mirinos-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jsysp05y7yznz1eeyk8shq9x-cartelago-mirinos"
   },
   {
     "id": "pastel-blue",
@@ -798,26 +805,30 @@
     "deckcollect": "https://deckcollect.com/deck/ueX2YK1r"
   },
   {
-    "id": "white-dragon",
-    "name": "White Dragon",
+    "id": "sumi-kitsune-original-craft",
+    "name": "Sumi Kitsune (Original Craft)",
     "brand": "Other",
     "qty": 1,
-    "photo": "/decks/white-dragon-photo.jpg",
-    "image": "/decks/white-dragon-photo.jpg",
-    "source": null,
+    "photo": "/decks/sumi-kitsune-original-craft-photo.jpg",
+    "image": "/decks/sumi-kitsune-original-craft-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/sumi-kitsune-original-craft-front.jpg",
+    "back": "/decks/sumi-kitsune-original-craft-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs3nt172h2bt6qqathjrybh-sumi-kitsune-original-craft"
   },
   {
-    "id": "violet",
-    "name": "Violet",
+    "id": "constellation-mystique-purple",
+    "name": "Constellation: Mystique Purple (Gilded)",
     "brand": "Other",
     "qty": 1,
-    "photo": "/decks/violet-photo.jpg",
-    "image": "/decks/violet-photo.jpg",
-    "source": null,
+    "photo": "/decks/constellation-mystique-purple-photo.jpg",
+    "image": "/decks/constellation-mystique-purple-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/constellation-mystique-purple-front.jpg",
+    "back": "/decks/constellation-mystique-purple-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs850cmq60gt2werjdq5pak-constellation-mystique-purple-gilded"
   },
   {
     "id": "mythical-creatures",
@@ -1071,9 +1082,12 @@
     "brand": "Other",
     "qty": 1,
     "photo": "/decks/the-dogs-diary-photo.jpg",
-    "image": "/decks/the-dogs-diary-photo.jpg",
+    "image": "/decks/the-dogs-diary-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/the-dogs-diary-front.jpg",
+    "back": "/decks/the-dogs-diary-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jsyvf259vzmhe1vytsn0smmc-the-dogs-diary-playing-cards-orange"
   },
   {
     "id": "keith-haring",
@@ -1278,26 +1292,29 @@
     "deckcollect": "https://deckcollect.com/deck/ub32YK1r"
   },
   {
-    "id": "gilded-spade",
-    "name": "Gilded Spade",
-    "brand": "Other",
+    "id": "artisan-white-2015",
+    "name": "Artisan (White 2015)",
+    "brand": "theory11",
     "qty": 1,
-    "photo": "/decks/gilded-spade-photo.jpg",
-    "image": "/decks/gilded-spade-photo.jpg",
-    "source": null,
+    "photo": "/decks/artisan-white-2015-photo.jpg",
+    "image": "/decks/artisan-white-2015-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/artisan-white-2015-front.jpg",
+    "hub": "https://playingcardhub.com/decks/01kt4yvm3qfrz84e9wgbss248j-artisan-white-2015"
   },
   {
-    "id": "neon-noir",
-    "name": "Neon Noir",
+    "id": "goketsu-craft",
+    "name": "Goketsu (Craft)",
     "brand": "Other",
     "qty": 1,
-    "photo": "/decks/neon-noir-photo.jpg",
-    "image": "/decks/neon-noir-photo.jpg",
-    "source": null,
+    "photo": "/decks/goketsu-craft-photo.jpg",
+    "image": "/decks/goketsu-craft-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/goketsu-craft-front.jpg",
+    "back": "/decks/goketsu-craft-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs4nd4egt2j4gsckper43ap-goketsu-craft"
   },
   {
     "id": "vintage",
@@ -1314,15 +1331,17 @@
     "hub": "https://playingcardhub.com/decks/01kb0knvv3zgj405s9t48hj5g4-vintage-classic-bicycle-red-seal"
   },
   {
-    "id": "green-gremlin",
-    "name": "Green Gremlin",
+    "id": "chilly-weather-tornado",
+    "name": "Chilly Weather: Tornado",
     "brand": "Bicycle",
     "qty": 1,
-    "photo": "/decks/green-gremlin-photo.jpg",
-    "image": "/decks/green-gremlin-photo.jpg",
-    "source": null,
+    "photo": "/decks/chilly-weather-tornado-photo.jpg",
+    "image": "/decks/chilly-weather-tornado-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/chilly-weather-tornado-front.jpg",
+    "back": "/decks/chilly-weather-tornado-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgscdgkgf5r1yqcf6m1sr46h-chilly-weather-tornado-bicycle"
   },
   {
     "id": "sea-king",
@@ -1353,15 +1372,17 @@
     "deckcollect": "https://deckcollect.com/deck/UjBLWZg9"
   },
   {
-    "id": "black-croc",
-    "name": "Black Croc",
+    "id": "forbidden-forest",
+    "name": "Forbidden Forest",
     "brand": "Other",
     "qty": 1,
-    "photo": "/decks/black-croc-photo.jpg",
-    "image": "/decks/black-croc-photo.jpg",
-    "source": null,
+    "photo": "/decks/forbidden-forest-photo.jpg",
+    "image": "/decks/forbidden-forest-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/forbidden-forest-front.jpg",
+    "back": "/decks/forbidden-forest-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs9d3s5jscnyvnepyrcgsvm-forbidden-forest"
   },
   {
     "id": "shin-lim",
