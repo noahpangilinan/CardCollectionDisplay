@@ -193,15 +193,17 @@
     "hub": "https://playingcardhub.com/decks/01kz9ncvg1vr68zgj7kg59pgcx-bicycle-ice-dragon"
   },
   {
-    "id": "emerald-bicycle",
-    "name": "Emerald Bicycle",
+    "id": "jacquard",
+    "name": "Jacquard",
     "brand": "Bicycle",
     "qty": 1,
-    "photo": "/decks/emerald-bicycle-photo.jpg",
-    "image": "/decks/emerald-bicycle-photo.jpg",
-    "source": null,
+    "photo": "/decks/jacquard-photo.jpg",
+    "image": "/decks/jacquard-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/jacquard-front.jpg",
+    "back": "/decks/jacquard-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs9wkhm30pvg5yk716er4qs-jacquard-bicycle"
   },
   {
     "id": "animal-kingdom",
@@ -270,18 +272,28 @@
     "deckcollect": "https://deckcollect.com/deck/GShUcnUY"
   },
   {
-    "id": "memento-mori-v2",
-    "name": "Memento Mori V2",
+    "id": "memento-mori-v2-black",
+    "name": "Memento Mori V2 (Black)",
     "brand": "Chris Ramsay",
-    "qty": 2,
-    "photo": "/decks/memento-mori-v2-photo.jpg",
-    "image": "/decks/memento-mori-v2-front.jpg",
+    "qty": 1,
+    "photo": "/decks/memento-mori-v2-black-photo.jpg",
+    "image": "/decks/memento-mori-v2-black-photo.jpg",
+    "fit": "cover",
+    "product": null
+  },
+  {
+    "id": "memento-mori-v2-white",
+    "name": "Memento Mori V2 (White)",
+    "brand": "Chris Ramsay",
+    "qty": 1,
+    "photo": "/decks/memento-mori-v2-white-photo.jpg",
+    "image": "/decks/memento-mori-v2-white-front.jpg",
     "source": null,
     "fit": "cover",
     "product": null,
-    "front": "/decks/memento-mori-v2-front.jpg",
-    "back": "/decks/memento-mori-v2-back.jpg",
-    "cardBack": "/decks/memento-mori-v2-cardback.jpg",
+    "front": "/decks/memento-mori-v2-white-front.jpg",
+    "back": "/decks/memento-mori-v2-white-back.jpg",
+    "cardBack": "/decks/memento-mori-v2-white-cardback.jpg",
     "deckcollect": "https://deckcollect.com/deck/vhKmzDoN"
   },
   {
@@ -328,15 +340,17 @@
     "hub": "https://playingcardhub.com/decks/01jgs2r8f71hzh85y1nzymbpmx-monarchs-blue-v2"
   },
   {
-    "id": "aristocrat",
-    "name": "Aristocrat Linen",
-    "brand": "USPCC",
+    "id": "aristocrat-linen-blue-2017",
+    "name": "Aristocrat Linen Finish Blue (2017)",
+    "brand": "Aristocrat",
     "qty": 1,
-    "photo": "/decks/aristocrat-photo.jpg",
-    "image": "/decks/aristocrat-photo.jpg",
-    "source": null,
+    "photo": "/decks/aristocrat-linen-blue-2017-photo.jpg",
+    "image": "/decks/aristocrat-linen-blue-2017-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/aristocrat-linen-blue-2017-front.jpg",
+    "back": "/decks/aristocrat-linen-blue-2017-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs9fgn8x6s1q5qf9zy3qcjp-aristocrat-linen-finish-blue-2017"
   },
   {
     "id": "obey",
@@ -488,15 +502,17 @@
     "deckcollect": "https://deckcollect.com/deck/2g1Y5XM6"
   },
   {
-    "id": "prestige",
-    "name": "Prestige",
+    "id": "mystical-pirates",
+    "name": "Mystical Pirates",
     "brand": "Other",
     "qty": 1,
-    "photo": "/decks/prestige-photo.jpg",
-    "image": "/decks/prestige-photo.jpg",
-    "source": null,
+    "photo": "/decks/mystical-pirates-photo.jpg",
+    "image": "/decks/mystical-pirates-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/mystical-pirates-front.jpg",
+    "back": "/decks/mystical-pirates-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgsabwv6dn7fte1nwke3sar9-mystical-pirates"
   },
   {
     "id": "the-planets-jupiter",
@@ -580,26 +596,29 @@
     "hub": "https://playingcardhub.com/decks/01jgs2qm2zcsavzww4bdvmca0j-stussy-bicycle"
   },
   {
-    "id": "prototype",
-    "name": "Prototype",
+    "id": "prototype-metalluxe-iridescent",
+    "name": "Prototype MetalLuxe Iridescent",
     "brand": "Bicycle",
     "qty": 1,
-    "photo": "/decks/prototype-photo.jpg",
-    "image": "/decks/prototype-photo.jpg",
-    "source": null,
+    "photo": "/decks/prototype-metalluxe-iridescent-photo.jpg",
+    "image": "/decks/prototype-metalluxe-iridescent-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/prototype-metalluxe-iridescent-front.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs9yg75y9wh1yb783rer9hc-prototype-metalluxe-iridescent-bicycle"
   },
   {
-    "id": "pixel-spade",
-    "name": "Pixel Spade",
+    "id": "dark-mode",
+    "name": "Dark Mode",
     "brand": "Bicycle",
     "qty": 1,
-    "photo": "/decks/pixel-spade-photo.jpg",
-    "image": "/decks/pixel-spade-photo.jpg",
-    "source": null,
+    "photo": "/decks/dark-mode-photo.jpg",
+    "image": "/decks/dark-mode-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/dark-mode-front.jpg",
+    "back": "/decks/dark-mode-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs59c4fwyh7cfkandfekajt-dark-mode-bicycle"
   },
   {
     "id": "solokid",
@@ -616,18 +635,17 @@
     "hub": "https://playingcardhub.com/decks/01jgs8f1qyta2739ssrt3djzv8-solokid-rainbow-dream-purple-blue"
   },
   {
-    "id": "royale",
-    "name": "Royale",
+    "id": "royal",
+    "name": "Royal",
     "brand": "Bicycle",
     "qty": 1,
-    "photo": "/decks/royale-photo.jpg",
-    "image": "/decks/royale-front.jpg",
-    "source": null,
+    "photo": "/decks/royal-photo.jpg",
+    "image": "/decks/royal-front.jpg",
     "fit": "cover",
     "product": null,
-    "front": "/decks/royale-front.jpg",
-    "back": "/decks/royale-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs5e9cq14dw753h2c232aqy-royale-bicycle"
+    "front": "/decks/royal-front.jpg",
+    "back": "/decks/royal-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01kxdr8wqq24mgbhcez3w3fd88-royal"
   },
   {
     "id": "hello-kitty",
@@ -728,15 +746,16 @@
     "deckcollect": "https://deckcollect.com/deck/iHQDfaj7"
   },
   {
-    "id": "bee-lunar-new-year",
-    "name": "Bee Lunar New Year",
+    "id": "bee-year-of-the-snake",
+    "name": "Year of the Snake",
     "brand": "Bee",
     "qty": 1,
-    "photo": "/decks/bee-lunar-new-year-photo.jpg",
-    "image": "/decks/bee-lunar-new-year-photo.jpg",
-    "source": null,
+    "photo": "/decks/bee-year-of-the-snake-photo.jpg",
+    "image": "/decks/bee-year-of-the-snake-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/bee-year-of-the-snake-front.jpg",
+    "hub": "https://playingcardhub.com/decks/01jw3bpdgsr1ve6r7qj2wyvpcg-bee-year-of-the-snake"
   },
   {
     "id": "back-to-the-future",
@@ -752,18 +771,17 @@
     "deckcollect": "https://deckcollect.com/deck/HbJVtlDr"
   },
   {
-    "id": "neon",
-    "name": "Neon",
+    "id": "neon-orange-bump",
+    "name": "Neon Orange Bump",
     "brand": "Bicycle",
     "qty": 1,
-    "photo": "/decks/neon-photo.jpg",
-    "image": "/decks/neon-front.jpg",
-    "source": null,
+    "photo": "/decks/neon-orange-bump-photo.jpg",
+    "image": "/decks/neon-orange-bump-front.jpg",
     "fit": "cover",
     "product": null,
-    "front": "/decks/neon-front.jpg",
-    "back": "/decks/neon-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jsypaawvdvetfmh9jk05yb50-neon"
+    "front": "/decks/neon-orange-bump-front.jpg",
+    "back": "/decks/neon-orange-bump-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs4hsd8944fg2vb865zsds3-neon-orange-bump-bicycle"
   },
   {
     "id": "navigators",
@@ -802,15 +820,17 @@
     "product": null
   },
   {
-    "id": "midnight-fleur",
-    "name": "Midnight Fleur",
+    "id": "mythical-creatures",
+    "name": "Mythical Creatures",
     "brand": "Bicycle",
     "qty": 1,
-    "photo": "/decks/midnight-fleur-photo.jpg",
-    "image": "/decks/midnight-fleur-photo.jpg",
-    "source": null,
+    "photo": "/decks/mythical-creatures-photo.jpg",
+    "image": "/decks/mythical-creatures-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/mythical-creatures-front.jpg",
+    "back": "/decks/mythical-creatures-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs1fntpp75sfwvq7yeat8pe-mythical-creatures-bicycle"
   },
   {
     "id": "wonderful-wizard-of-oz",
@@ -912,28 +932,17 @@
     "deckcollect": "https://deckcollect.com/deck/VIoXmZF3"
   },
   {
-    "id": "geometric-bicycle",
-    "name": "Geometric Bicycle",
+    "id": "prismatic",
+    "name": "Prismatic",
     "brand": "Bicycle",
     "qty": 1,
-    "photo": "/decks/geometric-bicycle-photo.jpg",
-    "image": "/decks/geometric-bicycle-front.jpg",
-    "source": null,
+    "photo": "/decks/prismatic-photo.jpg",
+    "image": "/decks/prismatic-front.jpg",
     "fit": "cover",
     "product": null,
-    "front": "/decks/geometric-bicycle-front.jpg",
-    "hub": "https://playingcardhub.com/decks/01k62qcfyt7j2gs9ce251za225-bicycle-bluepink-geometric"
-  },
-  {
-    "id": "low-poly-crystal",
-    "name": "Low Poly Crystal",
-    "brand": "Other",
-    "qty": 1,
-    "photo": "/decks/low-poly-crystal-photo.jpg",
-    "image": "/decks/low-poly-crystal-photo.jpg",
-    "source": null,
-    "fit": "cover",
-    "product": null
+    "front": "/decks/prismatic-front.jpg",
+    "back": "/decks/prismatic-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgsbs0eekbddewh0hd0ghyne-prismatic-bicycle"
   },
   {
     "id": "standard-blue",
@@ -1017,15 +1026,17 @@
     "deckcollect": "https://deckcollect.com/deck/PjHNMcnN"
   },
   {
-    "id": "teal-dragon",
-    "name": "Teal Dragon",
+    "id": "the-cold-king-arrives",
+    "name": "Chilly Weather: The Cold King Arrives",
     "brand": "Bicycle",
     "qty": 1,
-    "photo": "/decks/teal-dragon-photo.jpg",
-    "image": "/decks/teal-dragon-photo.jpg",
-    "source": null,
+    "photo": "/decks/the-cold-king-arrives-photo.jpg",
+    "image": "/decks/the-cold-king-arrives-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/the-cold-king-arrives-front.jpg",
+    "back": "/decks/the-cold-king-arrives-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgscdg33s3xdvpsjzbpfwnya-chilly-weather-the-cold-king-arrives-bicycle"
   },
   {
     "id": "the-lion-king",
@@ -1042,27 +1053,25 @@
     "deckcollect": "https://deckcollect.com/deck/lFBiGAYK"
   },
   {
-    "id": "standard-red",
-    "name": "Standard (Red)",
+    "id": "expert-rider-back-red",
+    "name": "Expert Rider Back Red",
     "brand": "Bicycle",
     "qty": 2,
-    "photo": "/decks/standard-red-photo.jpg",
-    "image": "/decks/standard-red-front.jpg",
-    "source": "https://www.playingcarddecks.com/products/red-rider-back-bicycle-playing-cards",
+    "photo": "/decks/expert-rider-back-red-photo.jpg",
+    "image": "/decks/expert-rider-back-red-front.jpg",
     "fit": "cover",
-    "product": "/decks/standard-red.jpg",
-    "front": "/decks/standard-red-front.jpg",
-    "back": "/decks/standard-red-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs5fph20tzzwpzr0rfverng-rider-back-red"
+    "product": null,
+    "front": "/decks/expert-rider-back-red-front.jpg",
+    "back": "/decks/expert-rider-back-red-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs4vgcq6gr5wps1h2vpvq3m-expert-rider-back-red-bicycle"
   },
   {
-    "id": "pink-hearts",
-    "name": "Pink Hearts",
+    "id": "the-dogs-diary",
+    "name": "The Dog’s Diary",
     "brand": "Other",
     "qty": 1,
-    "photo": "/decks/pink-hearts-photo.jpg",
-    "image": "/decks/pink-hearts-photo.jpg",
-    "source": null,
+    "photo": "/decks/the-dogs-diary-photo.jpg",
+    "image": "/decks/the-dogs-diary-photo.jpg",
     "fit": "cover",
     "product": null
   },
@@ -1080,15 +1089,17 @@
     "deckcollect": "https://deckcollect.com/deck/P9bNMcnN"
   },
   {
-    "id": "black-gold-seal",
-    "name": "Black & Gold Seal",
-    "brand": "Other",
+    "id": "third-man-records",
+    "name": "Third Man Records",
+    "brand": "Third Man Records",
     "qty": 1,
-    "photo": "/decks/black-gold-seal-photo.jpg",
-    "image": "/decks/black-gold-seal-photo.jpg",
-    "source": null,
+    "photo": "/decks/third-man-records-photo.jpg",
+    "image": "/decks/third-man-records-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/third-man-records-front.jpg",
+    "back": "/decks/third-man-records-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs2a2tj2k1fp7g7dxg1dm1k-third-man-records"
   },
   {
     "id": "star-wars-light-side",
@@ -1133,15 +1144,16 @@
     "deckcollect": "https://deckcollect.com/deck/R2AeNhrw"
   },
   {
-    "id": "lucky-cat",
-    "name": "Lucky Cat",
+    "id": "samurai-otter-mizu",
+    "name": "Samurai Otter: Mizu Edition",
     "brand": "Other",
     "qty": 1,
-    "photo": "/decks/lucky-cat-photo.jpg",
-    "image": "/decks/lucky-cat-photo.jpg",
-    "source": null,
+    "photo": "/decks/samurai-otter-mizu-photo.jpg",
+    "image": "/decks/samurai-otter-mizu-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/samurai-otter-mizu-front.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgsdnh0scwtwpxc7x7ghx562-samurai-otter-mizu-edition-standard-blue"
   },
   {
     "id": "messymod",
@@ -1213,18 +1225,17 @@
     "hub": "https://playingcardhub.com/decks/01jgsbk7ja1vcps9aq5accr6dp-sembras"
   },
   {
-    "id": "sunburst-koi",
-    "name": "Mermaid Back (Coral)",
+    "id": "itoya-mermaid-back-2",
+    "name": "Itoya Mermaid Back Part 2",
     "brand": "Bicycle",
     "qty": 1,
-    "photo": "/decks/sunburst-koi-photo.jpg",
-    "image": "/decks/sunburst-koi-front.jpg",
-    "source": null,
+    "photo": "/decks/itoya-mermaid-back-2-photo.jpg",
+    "image": "/decks/itoya-mermaid-back-2-front.jpg",
     "fit": "cover",
     "product": null,
-    "front": "/decks/sunburst-koi-front.jpg",
-    "back": "/decks/sunburst-koi-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs22fzxetenth24v3j3pwsq-mermaid-coral-bicycle"
+    "front": "/decks/itoya-mermaid-back-2-front.jpg",
+    "back": "/decks/itoya-mermaid-back-2-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgsbannefq0wrm87cybhsh3b-itoya-mermaid-back-part-2-bicycle"
   },
   {
     "id": "unicorns",
@@ -1240,15 +1251,17 @@
     "deckcollect": "https://deckcollect.com/deck/b33Zn4Y5"
   },
   {
-    "id": "golden-blossoms",
-    "name": "Golden Blossoms",
+    "id": "tanuki-yukaku-oiran-dochu",
+    "name": "Tanuki Yukaku (Oiran-Dochu)",
     "brand": "Other",
     "qty": 1,
-    "photo": "/decks/golden-blossoms-photo.jpg",
-    "image": "/decks/golden-blossoms-photo.jpg",
-    "source": null,
+    "photo": "/decks/tanuki-yukaku-oiran-dochu-photo.jpg",
+    "image": "/decks/tanuki-yukaku-oiran-dochu-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/tanuki-yukaku-oiran-dochu-front.jpg",
+    "back": "/decks/tanuki-yukaku-oiran-dochu-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jxy33a68mds2db0f3pc6yh1a-tanuki-yukaku-oiran-dochu"
   },
   {
     "id": "deck-of-robots",
@@ -1312,15 +1325,17 @@
     "product": null
   },
   {
-    "id": "teal-baroque",
-    "name": "Teal Baroque",
+    "id": "sea-king",
+    "name": "Sea King",
     "brand": "Bicycle",
     "qty": 1,
-    "photo": "/decks/teal-baroque-photo.jpg",
-    "image": "/decks/teal-baroque-photo.jpg",
-    "source": null,
+    "photo": "/decks/sea-king-photo.jpg",
+    "image": "/decks/sea-king-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/sea-king-front.jpg",
+    "back": "/decks/sea-king-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs59hn2697b59yxv8k44zm9-sea-king-bicycle"
   },
   {
     "id": "balatro",
@@ -1419,13 +1434,15 @@
   },
   {
     "id": "the-beatles",
-    "name": "The Beatles",
+    "name": "The Beatles (Green)",
     "brand": "theory11",
     "qty": 1,
     "photo": "/decks/the-beatles-photo.jpg",
-    "image": "/decks/the-beatles-photo.jpg",
-    "source": null,
+    "image": "/decks/the-beatles-front.jpg",
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/the-beatles-front.jpg",
+    "back": "/decks/the-beatles-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs7d2vfzzkesz1ewe83we5p-the-beatles-green"
   }
 ]
