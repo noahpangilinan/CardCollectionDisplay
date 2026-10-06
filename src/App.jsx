@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import decks from './decks.json'
 import DeckTile from './components/DeckTile.jsx'
 import DeckModal from './components/DeckModal.jsx'
@@ -34,7 +34,16 @@ export default function App() {
   const [query, setQuery] = useState('')
   const [order, setOrder] = useState(decks)
   const [shuffleKey, setShuffleKey] = useState(0)
-  const [openId, setOpenId] = useState(null)
+  const [openId, setOpenId] = useState(() => {
+    const id = decodeURIComponent(window.location.hash.slice(1))
+    return decks.some((d) => d.id === id) ? id : null
+  })
+
+  // Keep the open deck in the URL hash so it can be linked to directly.
+  useEffect(() => {
+    const url = openId ? `#${openId}` : window.location.pathname + window.location.search
+    window.history.replaceState(null, '', url)
+  }, [openId])
 
   const visible = useMemo(() => {
     const g = GROUPS.find((x) => x.label === group)
@@ -146,7 +155,7 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <p>Product images via playingcarddecks.com and artofplay.com · shelf photos are my own.</p>
+        <p>Deck scans via deckcollect.com · product images via playingcarddecks.com and artofplay.com · shelf photos are my own.</p>
       </footer>
 
       {openDeck && (

@@ -27,10 +27,13 @@
     "brand": "NOC",
     "qty": 1,
     "photo": "/decks/noc-pro-navy-blue-photo.jpg",
-    "image": "/decks/noc-pro-navy-blue-photo.jpg",
+    "image": "/decks/noc-pro-navy-blue-front.jpg",
     "source": "https://www.playingcarddecks.com/products/noc-pro-navy-blue-marked-playing-cards-uspcc",
     "fit": "cover",
-    "product": "/decks/noc-pro-navy-blue.jpg"
+    "product": "/decks/noc-pro-navy-blue.jpg",
+    "front": "/decks/noc-pro-navy-blue-front.jpg",
+    "back": "/decks/noc-pro-navy-blue-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/RzKeNhrw"
   },
   {
     "id": "metalluxe",
@@ -82,10 +85,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/panda-photo.jpg",
-    "image": "/decks/panda.jpg",
+    "image": "/decks/panda-front.jpg",
     "source": "https://www.playingcarddecks.com/products/bicycle-panda-playing-cards-slow-down-deal-in-panda-style",
-    "fit": "contain",
-    "product": "/decks/panda.jpg"
+    "fit": "cover",
+    "product": "/decks/panda.jpg",
+    "front": "/decks/panda-front.jpg",
+    "back": "/decks/panda-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/oqFlrKdX"
   },
   {
     "id": "vitreous",
@@ -104,10 +110,14 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/140th-anniversary-photo.jpg",
-    "image": "/decks/140th-anniversary.jpg",
+    "image": "/decks/140th-anniversary-front.jpg",
     "source": "https://www.playingcarddecks.com/products/bicycle-140th-anniversary-playing-cards-by-uspcc",
-    "fit": "contain",
-    "product": "/decks/140th-anniversary.jpg"
+    "fit": "cover",
+    "product": "/decks/140th-anniversary.jpg",
+    "front": "/decks/140th-anniversary-front.jpg",
+    "back": "/decks/140th-anniversary-back.jpg",
+    "cardBack": "/decks/140th-anniversary-cardback.jpg",
+    "deckcollect": "https://deckcollect.com/deck/2WCY5XM6"
   },
   {
     "id": "noc-pro-burgundy",
@@ -115,10 +125,13 @@
     "brand": "NOC",
     "qty": 1,
     "photo": "/decks/noc-pro-burgundy-photo.jpg",
-    "image": "/decks/noc-pro-burgundy-photo.jpg",
+    "image": "/decks/noc-pro-burgundy-front.jpg",
     "source": "https://www.playingcarddecks.com/products/noc-pro-burgundy-red-marked-playing-cards-uspcc",
     "fit": "cover",
-    "product": "/decks/noc-pro-burgundy.jpg"
+    "product": "/decks/noc-pro-burgundy.jpg",
+    "front": "/decks/noc-pro-burgundy-front.jpg",
+    "back": "/decks/noc-pro-burgundy-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/sPU8jaGo"
   },
   {
     "id": "ice-dragon",
@@ -148,10 +161,12 @@
     "brand": "theory11",
     "qty": 1,
     "photo": "/decks/animal-kingdom-photo.jpg",
-    "image": "/decks/animal-kingdom.jpg",
+    "image": "/decks/animal-kingdom-front.jpg",
     "source": "https://www.playingcarddecks.com/products/animal-kingdom-deck-playing-cards-poker-size-theory-11-uspcc-limited-edition-new",
     "fit": "cover",
-    "product": "/decks/animal-kingdom.jpg"
+    "product": "/decks/animal-kingdom.jpg",
+    "front": "/decks/animal-kingdom-front.jpg",
+    "deckcollect": "https://deckcollect.com/deck/s18jaGon"
   },
   {
     "id": "cocktail-recipes",
@@ -181,10 +196,13 @@
     "brand": "Moon",
     "qty": 1,
     "photo": "/decks/moon-photo.jpg",
-    "image": "/decks/moon-photo.jpg",
+    "image": "/decks/moon-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/moon-front.jpg",
+    "back": "/decks/moon-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/aqjtNvLS"
   },
   {
     "id": "noc-pro-greystone",
@@ -192,10 +210,13 @@
     "brand": "NOC",
     "qty": 1,
     "photo": "/decks/noc-pro-greystone-photo.jpg",
-    "image": "/decks/noc-pro-greystone-photo.jpg",
+    "image": "/decks/noc-pro-greystone-front.jpg",
     "source": "https://www.playingcarddecks.com/products/noc-pro-greystone-marked-playing-cards-uspcc",
     "fit": "cover",
-    "product": "/decks/noc-pro-greystone.jpg"
+    "product": "/decks/noc-pro-greystone.jpg",
+    "front": "/decks/noc-pro-greystone-front.jpg",
+    "back": "/decks/noc-pro-greystone-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/GShUcnUY"
   },
   {
     "id": "low-poly-skull-purple",
@@ -214,10 +235,14 @@
     "brand": "theory11",
     "qty": 1,
     "photo": "/decks/star-wars-dark-side-photo.jpg",
-    "image": "/decks/star-wars-dark-side-photo.jpg",
+    "image": "/decks/star-wars-dark-side-front.jpg",
     "source": "https://www.playingcarddecks.com/products/star-wars-playing-cards-uspcc",
     "fit": "cover",
-    "product": "/decks/star-wars-dark-side.jpg"
+    "product": "/decks/star-wars-dark-side.jpg",
+    "front": "/decks/star-wars-dark-side-front.jpg",
+    "back": "/decks/star-wars-dark-side-back.jpg",
+    "cardBack": "/decks/star-wars-dark-side-cardback.jpg",
+    "deckcollect": "https://deckcollect.com/deck/UW3LWZg9"
   },
   {
     "id": "ice",
@@ -258,10 +283,13 @@
     "brand": "theory11",
     "qty": 1,
     "photo": "/decks/obey-photo.jpg",
-    "image": "/decks/obey.jpg",
+    "image": "/decks/obey-front.jpg",
     "source": "https://www.playingcarddecks.com/products/obey-collage-edition-playing-cards-by-theory11-1",
     "fit": "cover",
-    "product": "/decks/obey.jpg"
+    "product": "/decks/obey.jpg",
+    "front": "/decks/obey-front.jpg",
+    "back": "/decks/obey-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/FCFGX8Na"
   },
   {
     "id": "green-rider-back",
@@ -280,10 +308,13 @@
     "brand": "NOC",
     "qty": 1,
     "photo": "/decks/noc-pro-jet-black-photo.jpg",
-    "image": "/decks/noc-pro-jet-black-photo.jpg",
+    "image": "/decks/noc-pro-jet-black-front.jpg",
     "source": "https://www.playingcarddecks.com/products/noc-pro-jet-black-marked-playing-cards-uspcc",
     "fit": "cover",
-    "product": "/decks/noc-pro-jet-black.jpg"
+    "product": "/decks/noc-pro-jet-black.jpg",
+    "front": "/decks/noc-pro-jet-black-front.jpg",
+    "back": "/decks/noc-pro-jet-black-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/ecp6l8wV"
   },
   {
     "id": "low-poly-skull-orange",
@@ -357,10 +388,13 @@
     "brand": "Pure Imagination",
     "qty": 1,
     "photo": "/decks/cherry-casino-red-photo.jpg",
-    "image": "/decks/cherry-casino-red-photo.jpg",
+    "image": "/decks/cherry-casino-red-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/cherry-casino-red-front.jpg",
+    "back": "/decks/cherry-casino-red-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/5CkQZnCR"
   },
   {
     "id": "spellbound",
@@ -379,10 +413,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/year-of-the-snake-photo.jpg",
-    "image": "/decks/year-of-the-snake.jpg",
+    "image": "/decks/year-of-the-snake-front.jpg",
     "source": "https://www.playingcarddecks.com/products/bicycle-year-of-the-snake-playing-cards-celebrate-the-guiding-wisdom",
-    "fit": "contain",
-    "product": "/decks/year-of-the-snake.jpg"
+    "fit": "cover",
+    "product": "/decks/year-of-the-snake.jpg",
+    "front": "/decks/year-of-the-snake-front.jpg",
+    "back": "/decks/year-of-the-snake-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/2g1Y5XM6"
   },
   {
     "id": "prestige",
@@ -401,10 +438,13 @@
     "brand": "Vanda",
     "qty": 1,
     "photo": "/decks/the-planets-jupiter-photo.jpg",
-    "image": "/decks/the-planets-jupiter-photo.jpg",
+    "image": "/decks/the-planets-jupiter-front.jpg",
     "source": "https://www.playingcarddecks.com/products/the-planets-jupiter-playing-cards-uspcc",
     "fit": "cover",
-    "product": "/decks/the-planets-jupiter.jpg"
+    "product": "/decks/the-planets-jupiter.jpg",
+    "front": "/decks/the-planets-jupiter-front.jpg",
+    "back": "/decks/the-planets-jupiter-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/sdi8jaGo"
   },
   {
     "id": "horse-dragon-brewing",
@@ -445,10 +485,12 @@
     "brand": "Pure Imagination",
     "qty": 1,
     "photo": "/decks/cherry-casino-monte-carlo-photo.jpg",
-    "image": "/decks/cherry-casino-monte-carlo-photo.jpg",
+    "image": "/decks/cherry-casino-monte-carlo-front.jpg",
     "source": "https://www.playingcarddecks.com/products/cherry-casino-house-deck-monte-carlo-black-gold-playing-cards-uspcc",
     "fit": "cover",
-    "product": "/decks/cherry-casino-monte-carlo.jpg"
+    "product": "/decks/cherry-casino-monte-carlo.jpg",
+    "front": "/decks/cherry-casino-monte-carlo-front.jpg",
+    "deckcollect": "https://deckcollect.com/deck/p6nklVeM"
   },
   {
     "id": "st-ssy",
@@ -511,10 +553,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/hello-kitty-photo.jpg",
-    "image": "/decks/hello-kitty-photo.jpg",
+    "image": "/decks/hello-kitty-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/hello-kitty-front.jpg",
+    "back": "/decks/hello-kitty-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/gEBHJdmf"
   },
   {
     "id": "yellow-rider-back",
@@ -533,10 +578,13 @@
     "brand": "Pure Imagination",
     "qty": 1,
     "photo": "/decks/cherry-casino-silver-photo.jpg",
-    "image": "/decks/cherry-casino-silver-photo.jpg",
+    "image": "/decks/cherry-casino-silver-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/cherry-casino-silver-front.jpg",
+    "back": "/decks/cherry-casino-silver-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/8xgR0I7f"
   },
   {
     "id": "cherry-casino-black-hawk",
@@ -577,10 +625,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/dragon-photo.jpg",
-    "image": "/decks/dragon.jpg",
+    "image": "/decks/dragon-front.jpg",
     "source": "https://www.playingcarddecks.com/products/bicycle-black-dragon",
     "fit": "cover",
-    "product": "/decks/dragon.jpg"
+    "product": "/decks/dragon.jpg",
+    "front": "/decks/dragon-front.jpg",
+    "back": "/decks/dragon-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/iHQDfaj7"
   },
   {
     "id": "bee-lunar-new-year",
@@ -599,10 +650,12 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/back-to-the-future-photo.jpg",
-    "image": "/decks/back-to-the-future.jpg",
+    "image": "/decks/back-to-the-future-front.jpg",
     "source": "https://www.playingcarddecks.com/products/back-to-the-future-bicycle-playing-cards",
-    "fit": "contain",
-    "product": "/decks/back-to-the-future.jpg"
+    "fit": "cover",
+    "product": "/decks/back-to-the-future.jpg",
+    "front": "/decks/back-to-the-future-front.jpg",
+    "deckcollect": "https://deckcollect.com/deck/HbJVtlDr"
   },
   {
     "id": "neon",
@@ -621,10 +674,13 @@
     "brand": "theory11",
     "qty": 1,
     "photo": "/decks/navigators-photo.jpg",
-    "image": "/decks/navigators.jpg",
+    "image": "/decks/navigators-front.jpg",
     "source": "https://www.playingcarddecks.com/products/navigators-playing-cards-uspcc",
     "fit": "cover",
-    "product": "/decks/navigators.jpg"
+    "product": "/decks/navigators.jpg",
+    "front": "/decks/navigators-front.jpg",
+    "back": "/decks/navigators-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/ueX2YK1r"
   },
   {
     "id": "white-dragon",
@@ -665,10 +721,14 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/wonderful-wizard-of-oz-photo.jpg",
-    "image": "/decks/wonderful-wizard-of-oz-photo.jpg",
+    "image": "/decks/wonderful-wizard-of-oz-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/wonderful-wizard-of-oz-front.jpg",
+    "back": "/decks/wonderful-wizard-of-oz-back.jpg",
+    "cardBack": "/decks/wonderful-wizard-of-oz-cardback.jpg",
+    "deckcollect": "https://deckcollect.com/deck/zracwP3Z"
   },
   {
     "id": "neptune-s-graveyard",
@@ -709,10 +769,13 @@
     "brand": "theory11",
     "qty": 1,
     "photo": "/decks/jean-michel-basquiat-photo.jpg",
-    "image": "/decks/jean-michel-basquiat.jpg",
+    "image": "/decks/jean-michel-basquiat-front.jpg",
     "source": "https://www.playingcarddecks.com/products/basquiat-playing-cards-uspcc",
     "fit": "cover",
-    "product": "/decks/jean-michel-basquiat.jpg"
+    "product": "/decks/jean-michel-basquiat.jpg",
+    "front": "/decks/jean-michel-basquiat-front.jpg",
+    "back": "/decks/jean-michel-basquiat-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/kawKT9MV"
   },
   {
     "id": "union",
@@ -720,10 +783,13 @@
     "brand": "theory11",
     "qty": 1,
     "photo": "/decks/union-photo.jpg",
-    "image": "/decks/union-photo.jpg",
+    "image": "/decks/union-front.jpg",
     "source": "https://www.playingcarddecks.com/products/union-deck-playing-cards-poker-size-uspcc-theory-11-limited-edition-sealed-usa",
     "fit": "cover",
-    "product": "/decks/union.jpg"
+    "product": "/decks/union.jpg",
+    "front": "/decks/union-front.jpg",
+    "back": "/decks/union-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/OE9JLhNc"
   },
   {
     "id": "provision",
@@ -731,10 +797,13 @@
     "brand": "theory11",
     "qty": 1,
     "photo": "/decks/provision-photo.jpg",
-    "image": "/decks/provision.jpg",
+    "image": "/decks/provision-front.jpg",
     "source": "https://www.playingcarddecks.com/products/provision-playing-cards-uspcc",
     "fit": "cover",
-    "product": "/decks/provision.jpg"
+    "product": "/decks/provision.jpg",
+    "front": "/decks/provision-front.jpg",
+    "back": "/decks/provision-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/VIoXmZF3"
   },
   {
     "id": "geometric-bicycle",
@@ -775,10 +844,13 @@
     "brand": "theory11",
     "qty": 1,
     "photo": "/decks/high-victorian-green-photo.jpg",
-    "image": "/decks/high-victorian-green-photo.jpg",
+    "image": "/decks/high-victorian-green-front.jpg",
     "source": "https://www.playingcarddecks.com/products/high-victorian-playing-cards-uspcc",
     "fit": "cover",
-    "product": "/decks/high-victorian-green.jpg"
+    "product": "/decks/high-victorian-green.jpg",
+    "front": "/decks/high-victorian-green-front.jpg",
+    "back": "/decks/high-victorian-green-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/EHbhxLZ9"
   },
   {
     "id": "contraband",
@@ -786,10 +858,12 @@
     "brand": "theory11",
     "qty": 1,
     "photo": "/decks/contraband-photo.jpg",
-    "image": "/decks/contraband-photo.jpg",
+    "image": "/decks/contraband-front.jpg",
     "source": "https://www.playingcarddecks.com/products/contraband-deck-playing-cards-poker-size-theory-11-uspcc-limited-edition-sealed",
     "fit": "cover",
-    "product": "/decks/contraband.jpg"
+    "product": "/decks/contraband.jpg",
+    "front": "/decks/contraband-front.jpg",
+    "deckcollect": "https://deckcollect.com/deck/msx3nOJa"
   },
   {
     "id": "verbena",
@@ -797,10 +871,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/verbena-photo.jpg",
-    "image": "/decks/verbena-photo.jpg",
+    "image": "/decks/verbena-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/verbena-front.jpg",
+    "back": "/decks/verbena-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/8SgR0I7f"
   },
   {
     "id": "archangels",
@@ -808,10 +885,12 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/archangels-photo.jpg",
-    "image": "/decks/archangels-photo.jpg",
+    "image": "/decks/archangels-front.jpg",
     "source": "https://www.playingcarddecks.com/products/archangels-deck-bicycle-playing-cards-poker-size-uspcc-theory-11-limited-edition",
     "fit": "cover",
-    "product": "/decks/archangels.jpg"
+    "product": "/decks/archangels.jpg",
+    "front": "/decks/archangels-front.jpg",
+    "deckcollect": "https://deckcollect.com/deck/ed6l8wVq"
   },
   {
     "id": "knights",
@@ -819,10 +898,12 @@
     "brand": "Other",
     "qty": 1,
     "photo": "/decks/knights-photo.jpg",
-    "image": "/decks/knights-photo.jpg",
+    "image": "/decks/knights-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/knights-front.jpg",
+    "deckcollect": "https://deckcollect.com/deck/PjHNMcnN"
   },
   {
     "id": "teal-dragon",
@@ -841,10 +922,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/the-lion-king-photo.jpg",
-    "image": "/decks/the-lion-king.jpg",
+    "image": "/decks/the-lion-king-front.jpg",
     "source": "https://www.playingcarddecks.com/products/bicycle-disney-lion-king-playing-cards",
-    "fit": "contain",
-    "product": "/decks/the-lion-king.jpg"
+    "fit": "cover",
+    "product": "/decks/the-lion-king.jpg",
+    "front": "/decks/the-lion-king-front.jpg",
+    "back": "/decks/the-lion-king-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/lFBiGAYK"
   },
   {
     "id": "standard-red",
@@ -874,10 +958,12 @@
     "brand": "theory11",
     "qty": 1,
     "photo": "/decks/keith-haring-photo.jpg",
-    "image": "/decks/keith-haring.jpg",
+    "image": "/decks/keith-haring-front.jpg",
     "source": "https://www.playingcarddecks.com/products/keith-haring-playing-cards",
     "fit": "cover",
-    "product": "/decks/keith-haring.jpg"
+    "product": "/decks/keith-haring.jpg",
+    "front": "/decks/keith-haring-front.jpg",
+    "deckcollect": "https://deckcollect.com/deck/P9bNMcnN"
   },
   {
     "id": "black-gold-seal",
@@ -907,10 +993,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/aviary-photo.jpg",
-    "image": "/decks/aviary.jpg",
+    "image": "/decks/aviary-front.jpg",
     "source": "https://www.playingcarddecks.com/products/aviary-bicycle-playing-cards",
-    "fit": "contain",
-    "product": "/decks/aviary.jpg"
+    "fit": "cover",
+    "product": "/decks/aviary.jpg",
+    "front": "/decks/aviary-front.jpg",
+    "back": "/decks/aviary-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/JhyaEBgz"
   },
   {
     "id": "disney-villains",
@@ -918,10 +1007,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/disney-villains-photo.jpg",
-    "image": "/decks/disney-villains.jpg",
+    "image": "/decks/disney-villains-front.jpg",
     "source": "https://www.playingcarddecks.com/products/disney-villains-inspired-green-bicycle-playing-cards",
     "fit": "cover",
-    "product": "/decks/disney-villains.jpg"
+    "product": "/decks/disney-villains.jpg",
+    "front": "/decks/disney-villains-front.jpg",
+    "back": "/decks/disney-villains-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/R2AeNhrw"
   },
   {
     "id": "lucky-cat",
@@ -940,10 +1032,12 @@
     "brand": "Messymod",
     "qty": 1,
     "photo": "/decks/messymod-photo.jpg",
-    "image": "/decks/messymod-photo.jpg",
+    "image": "/decks/messymod-front.jpg",
     "source": "https://www.playingcarddecks.com/products/messymod-v2-playing-cards-uspcc",
     "fit": "cover",
-    "product": "/decks/messymod.jpg"
+    "product": "/decks/messymod.jpg",
+    "front": "/decks/messymod-front.jpg",
+    "deckcollect": "https://deckcollect.com/deck/tx3yJwvF"
   },
   {
     "id": "little-atlantis",
@@ -1006,10 +1100,12 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/unicorns-photo.jpg",
-    "image": "/decks/unicorns-photo.jpg",
+    "image": "/decks/unicorns-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/unicorns-front.jpg",
+    "deckcollect": "https://deckcollect.com/deck/b33Zn4Y5"
   },
   {
     "id": "golden-blossoms",
@@ -1028,10 +1124,13 @@
     "brand": "Deck of Robots",
     "qty": 1,
     "photo": "/decks/deck-of-robots-photo.jpg",
-    "image": "/decks/deck-of-robots.jpg",
+    "image": "/decks/deck-of-robots-front.jpg",
     "source": "https://www.playingcarddecks.com/products/deck-of-robots-playing-cards-uspcc",
-    "fit": "contain",
-    "product": "/decks/deck-of-robots.jpg"
+    "fit": "cover",
+    "product": "/decks/deck-of-robots.jpg",
+    "front": "/decks/deck-of-robots-front.jpg",
+    "back": "/decks/deck-of-robots-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/ub32YK1r"
   },
   {
     "id": "gilded-spade",
@@ -1094,10 +1193,14 @@
     "brand": "Balatro",
     "qty": 1,
     "photo": "/decks/balatro-photo.jpg",
-    "image": "/decks/balatro-photo.jpg",
+    "image": "/decks/balatro-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/balatro-front.jpg",
+    "back": "/decks/balatro-back.jpg",
+    "cardBack": "/decks/balatro-cardback.jpg",
+    "deckcollect": "https://deckcollect.com/deck/UjBLWZg9"
   },
   {
     "id": "black-croc",
@@ -1127,10 +1230,13 @@
     "brand": "Art of Play",
     "qty": 1,
     "photo": "/decks/midway-gardens-photo.jpg",
-    "image": "/decks/midway-gardens.jpg",
+    "image": "/decks/midway-gardens-front.jpg",
     "source": "https://www.artofplay.com/products/midway-gardens-playing-cards",
     "fit": "cover",
-    "product": "/decks/midway-gardens.jpg"
+    "product": "/decks/midway-gardens.jpg",
+    "front": "/decks/midway-gardens-front.jpg",
+    "back": "/decks/midway-gardens-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/9JxFqgRu"
   },
   {
     "id": "stargazer-observatory",
@@ -1149,10 +1255,13 @@
     "brand": "Art of Play",
     "qty": 1,
     "photo": "/decks/ramen-heads-photo.jpg",
-    "image": "/decks/ramen-heads.jpg",
+    "image": "/decks/ramen-heads-front.jpg",
     "source": "https://www.artofplay.com/products/ramen-heads-playing-cards",
-    "fit": "contain",
-    "product": "/decks/ramen-heads.jpg"
+    "fit": "cover",
+    "product": "/decks/ramen-heads.jpg",
+    "front": "/decks/ramen-heads-front.jpg",
+    "back": "/decks/ramen-heads-back.jpg",
+    "deckcollect": "https://deckcollect.com/deck/kMiKT9MV"
   },
   {
     "id": "voyager",
