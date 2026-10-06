@@ -41,18 +41,44 @@
     "deckcollect": "https://deckcollect.com/deck/RzKeNhrw"
   },
   {
-    "id": "metalluxe",
+    "id": "metalluxe-gold",
     "name": "MetalLuxe Black & Gold",
     "brand": "Bicycle",
-    "qty": 3,
-    "photo": "/decks/metalluxe-photo.jpg",
-    "image": "/decks/metalluxe-front.jpg",
+    "qty": 1,
+    "photo": "/decks/metalluxe-gold-photo.jpg",
+    "image": "/decks/metalluxe-gold-front.jpg",
     "source": null,
     "fit": "cover",
     "product": null,
-    "front": "/decks/metalluxe-front.jpg",
-    "back": "/decks/metalluxe-back.jpg",
+    "front": "/decks/metalluxe-gold-front.jpg",
+    "back": "/decks/metalluxe-gold-back.jpg",
     "hub": "https://playingcardhub.com/decks/01k3n46dzvxqapmttf5mj38sa4-metalluxe-black-and-gold"
+  },
+  {
+    "id": "metalluxe-silver",
+    "name": "MetalLuxe Black & Silver",
+    "brand": "Bicycle",
+    "qty": 1,
+    "photo": "/decks/metalluxe-silver-photo.jpg",
+    "product": null,
+    "front": "/decks/metalluxe-silver-front.jpg",
+    "back": "/decks/metalluxe-silver-back.jpg",
+    "image": "/decks/metalluxe-silver-front.jpg",
+    "fit": "cover",
+    "hub": "https://playingcardhub.com/decks/01k3n46enent4p7tpxat630r60-metalluxe-black-and-silver"
+  },
+  {
+    "id": "metalluxe-copper",
+    "name": "MetalLuxe Black & Copper",
+    "brand": "Bicycle",
+    "qty": 1,
+    "photo": "/decks/metalluxe-copper-photo.jpg",
+    "product": null,
+    "front": "/decks/metalluxe-copper-front.jpg",
+    "back": "/decks/metalluxe-copper-back.jpg",
+    "image": "/decks/metalluxe-copper-front.jpg",
+    "fit": "cover",
+    "hub": "https://playingcardhub.com/decks/01k3n46b4y51sdn6k09r66hcfv-metalluxe-black-and-rose-gold"
   },
   {
     "id": "tactical-field",
@@ -69,15 +95,18 @@
     "hub": "https://playingcardhub.com/decks/01jgsd207m4e2kn95fmmyp7hdc-tactical-field-navy-blue-bicycle"
   },
   {
-    "id": "gold-black-bicycle",
-    "name": "Gold & Black Bicycle",
+    "id": "cypher",
+    "name": "Cypher",
     "brand": "Bicycle",
     "qty": 1,
-    "photo": "/decks/gold-black-bicycle-photo.jpg",
-    "image": "/decks/gold-black-bicycle-photo.jpg",
+    "photo": "/decks/cypher-photo.jpg",
+    "image": "/decks/cypher-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/cypher-front.jpg",
+    "back": "/decks/cypher-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs9wjchny1e78pe89nbsceg-cypher-bicycle"
   },
   {
     "id": "lonely-wolf",
@@ -241,15 +270,19 @@
     "deckcollect": "https://deckcollect.com/deck/GShUcnUY"
   },
   {
-    "id": "low-poly-skull-purple",
-    "name": "Low Poly Skull (Purple)",
-    "brand": "Other",
-    "qty": 1,
-    "photo": "/decks/low-poly-skull-purple-photo.jpg",
-    "image": "/decks/low-poly-skull-purple-photo.jpg",
+    "id": "memento-mori-v2",
+    "name": "Memento Mori V2",
+    "brand": "Chris Ramsay",
+    "qty": 2,
+    "photo": "/decks/memento-mori-v2-photo.jpg",
+    "image": "/decks/memento-mori-v2-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/memento-mori-v2-front.jpg",
+    "back": "/decks/memento-mori-v2-back.jpg",
+    "cardBack": "/decks/memento-mori-v2-cardback.jpg",
+    "deckcollect": "https://deckcollect.com/deck/vhKmzDoN"
   },
   {
     "id": "star-wars-dark-side",
@@ -348,17 +381,6 @@
     "deckcollect": "https://deckcollect.com/deck/ecp6l8wV"
   },
   {
-    "id": "low-poly-skull-orange",
-    "name": "Low Poly Skull (Orange)",
-    "brand": "Other",
-    "qty": 1,
-    "photo": "/decks/low-poly-skull-orange-photo.jpg",
-    "image": "/decks/low-poly-skull-orange-photo.jpg",
-    "source": null,
-    "fit": "cover",
-    "product": null
-  },
-  {
     "id": "muralis",
     "name": "Muralis",
     "brand": "Bicycle",
@@ -401,18 +423,14 @@
     "hub": "https://playingcardhub.com/decks/01jgs7dvajedmj13cxp2yygtf2-marquis-bicycle"
   },
   {
-    "id": "cartelago",
-    "name": "Cartelago",
+    "id": "cartelago-mirinos",
+    "name": "Cartelago Mirinos (Black)",
     "brand": "Cartelago",
     "qty": 1,
-    "photo": "/decks/cartelago-photo.jpg",
-    "image": "/decks/cartelago-front.jpg",
-    "source": "https://www.playingcarddecks.com/products/cartelago-playing-cards-uspcc",
+    "photo": "/decks/cartelago-mirinos-photo.jpg",
+    "image": "/decks/cartelago-mirinos-photo.jpg",
     "fit": "cover",
-    "product": "/decks/cartelago.jpg",
-    "front": "/decks/cartelago-front.jpg",
-    "back": "/decks/cartelago-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs6k15a1dqzpk0x1r78xx1b-cartelago"
+    "product": null
   },
   {
     "id": "pastel-blue",
@@ -668,26 +686,32 @@
     "hub": "https://playingcardhub.com/decks/01jgs1dacea0a34js9zrw3h6ha-cherry-casino-v3-black-hawk"
   },
   {
-    "id": "tally-ho-2023",
-    "name": "Tally-Ho 2023",
+    "id": "tally-ho-heart",
+    "name": "Heart",
     "brand": "Tally-Ho",
     "qty": 1,
-    "photo": "/decks/tally-ho-2023-photo.jpg",
-    "image": "/decks/tally-ho-2023-photo.jpg",
+    "photo": "/decks/tally-ho-heart-photo.jpg",
+    "image": "/decks/tally-ho-heart-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/tally-ho-heart-front.jpg",
+    "back": "/decks/tally-ho-heart-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgsbykae9xzgd6k1c8z1wepn-heart-tally-ho"
   },
   {
-    "id": "kingstar",
-    "name": "Kingstar",
+    "id": "monkey-king-erlang-modern",
+    "name": "Monkey King Series: Erlang Modern",
     "brand": "Kingstar",
     "qty": 1,
-    "photo": "/decks/kingstar-photo.jpg",
-    "image": "/decks/kingstar-photo.jpg",
+    "photo": "/decks/monkey-king-erlang-modern-photo.jpg",
+    "image": "/decks/monkey-king-erlang-modern-front.jpg",
     "source": null,
     "fit": "cover",
-    "product": null
+    "product": null,
+    "front": "/decks/monkey-king-erlang-modern-front.jpg",
+    "back": "/decks/monkey-king-erlang-modern-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgsasjaspp708zqb1wkc91p1-monkey-king-series-erlang-modern"
   },
   {
     "id": "dragon",
