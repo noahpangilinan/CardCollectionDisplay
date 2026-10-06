@@ -71,10 +71,14 @@ export default function App() {
         <div className="hero-copy">
           <p className="eyebrow">A personal collection</p>
           <h1>
-            The Deck
+            Noah Pangilinan’s
             <br />
-            <em>Archive</em>
+            <em>Deck Collection</em>
           </h1>
+          <p className="hero-note">
+            Every deck here sits on my own shelf. This is a personal collection, not a shop — nothing is
+            for sale.
+          </p>
           <dl className="stats">
             <div>
               <dt>Decks</dt>

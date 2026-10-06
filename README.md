@@ -1,6 +1,6 @@
-# The Deck Archive
+# Noah Pangilinan’s Deck Collection
 
-A React + Vite site showcasing my playing card collection. Deployed on Netlify.
+A personal (not for sale) collection of my playing card decks, built with React + Vite and deployed on Netlify.
 
 ## Develop
 

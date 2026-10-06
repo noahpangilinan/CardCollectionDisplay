@@ -74,10 +74,18 @@ img {
 .hero h1 {
   font-family: var(--serif);
   font-weight: 400;
-  font-size: clamp(64px, 11vw, 168px);
-  line-height: 0.86;
+  font-size: clamp(48px, 7.4vw, 116px);
+  line-height: 0.9;
   letter-spacing: -0.02em;
-  margin: 18px 0 40px;
+  margin: 18px 0 20px;
+}
+
+.hero-note {
+  max-width: 420px;
+  margin: 0 0 36px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #555;
 }
 
 .hero h1 em {
