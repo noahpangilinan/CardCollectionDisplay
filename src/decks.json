@@ -956,18 +956,17 @@
     "hub": "https://playingcardhub.com/decks/01jgsbs0eekbddewh0hd0ghyne-prismatic-bicycle"
   },
   {
-    "id": "standard-blue",
-    "name": "Standard (Blue)",
+    "id": "standard-blue-2009",
+    "name": "Standard Blue (2009)",
     "brand": "Bicycle",
     "qty": 2,
-    "photo": "/decks/standard-blue-photo.jpg",
-    "image": "/decks/standard-blue-front.jpg",
-    "source": "https://www.playingcarddecks.com/products/blue-rider-back-bicycle-playing-cards",
+    "photo": "/decks/standard-blue-2009-photo.jpg",
+    "image": "/decks/standard-blue-2009-front.jpg",
     "fit": "cover",
-    "product": "/decks/standard-blue.jpg",
-    "front": "/decks/standard-blue-front.jpg",
-    "back": "/decks/standard-blue-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs34ya8n5fn7j1m95tq8q6k-rider-back-blue"
+    "product": null,
+    "front": "/decks/standard-blue-2009-front.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs392be2pds2jwc3883j0vj-standard-blue-bicycle-2009",
+    "back": "/decks/standard-blue-2009-back.jpg"
   },
   {
     "id": "high-victorian-green",
@@ -1064,17 +1063,17 @@
     "deckcollect": "https://deckcollect.com/deck/lFBiGAYK"
   },
   {
-    "id": "expert-rider-back-red",
-    "name": "Expert Rider Back Red",
+    "id": "standard-red-2009",
+    "name": "Standard Red (2009)",
     "brand": "Bicycle",
     "qty": 2,
-    "photo": "/decks/expert-rider-back-red-photo.jpg",
-    "image": "/decks/expert-rider-back-red-front.jpg",
+    "photo": "/decks/standard-red-2009-photo.jpg",
+    "image": "/decks/standard-red-2009-front.jpg",
     "fit": "cover",
     "product": null,
-    "front": "/decks/expert-rider-back-red-front.jpg",
-    "back": "/decks/expert-rider-back-red-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs4vgcq6gr5wps1h2vpvq3m-expert-rider-back-red-bicycle"
+    "front": "/decks/standard-red-2009-front.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs3927gzqhq2z72ephet6pe-standard-red-bicycle-2009",
+    "back": "/decks/standard-red-2009-back.jpg"
   },
   {
     "id": "the-dogs-diary",
