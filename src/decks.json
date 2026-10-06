@@ -492,7 +492,8 @@
     "fit": "cover",
     "product": "/decks/spellbound.jpg",
     "front": "/decks/spellbound-front.jpg",
-    "hub": "https://playingcardhub.com/decks/01jxz5f6bt4jff36wn92c3eckj-spellbound"
+    "hub": "https://playingcardhub.com/decks/01jxz5f6bt4jff36wn92c3eckj-spellbound",
+    "back": "/decks/spellbound-back.jpg"
   },
   {
     "id": "year-of-the-snake",
