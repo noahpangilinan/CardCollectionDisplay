@@ -1465,5 +1465,41 @@
     "front": "/decks/the-beatles-front.jpg",
     "back": "/decks/the-beatles-back.jpg",
     "hub": "https://playingcardhub.com/decks/01jgs7d2vfzzkesz1ewe83we5p-the-beatles-green"
+  },
+  {
+    "id": "moon-white-holo",
+    "name": "Moon (White Holo)",
+    "brand": "Moon",
+    "qty": 1,
+    "photo": "/decks/moon-white-holo-photo.jpg",
+    "image": "/decks/moon-white-holo-photo.jpg",
+    "fit": "cover",
+    "product": null,
+    "front": "/decks/moon-white-holo-photo.jpg",
+    "source": "https://www.ukplayingcardcompany.co.uk/product/moon-white-holo-playing-cards/"
+  },
+  {
+    "id": "bicycle-serenity",
+    "name": "Bicycle Serenity",
+    "brand": "Bicycle",
+    "qty": 1,
+    "photo": "/decks/bicycle-serenity-photo.jpg",
+    "image": "/decks/bicycle-serenity-photo.jpg",
+    "fit": "cover",
+    "product": null,
+    "front": "/decks/bicycle-serenity-photo.jpg",
+    "source": "https://emilysleights52.com/products/bicycle-serenity-playing-cards"
+  },
+  {
+    "id": "lady-moon",
+    "name": "Lady Moon",
+    "brand": "Art of Play",
+    "qty": 1,
+    "photo": "/decks/lady-moon-photo.jpg",
+    "image": "/decks/lady-moon-photo.jpg",
+    "fit": "cover",
+    "product": null,
+    "front": "/decks/lady-moon-photo.jpg",
+    "source": "https://www.artofplay.com/products/lady-moon-playing-cards"
   }
 ]
