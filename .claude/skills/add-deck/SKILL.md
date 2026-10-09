@@ -20,7 +20,7 @@ Image conventions: `public/decks/<id>-photo.jpg` (shelf crop), `-front.jpg` / `-
 
 ## 2. Dedupe
 Search `src/decks.json` for each deck by name and by similar ids. If it's already in the collection, it's
-a second copy: plan `npm run -s deck bump <id>` instead of a new entry, and skip steps 3–5 for it.
+a second copy: plan `npm run -s deck bump <id>` instead of a new entry, and skip steps 3–6 for it.
 
 ## 3. Crop
 - id = kebab-case of the name, e.g. `Ice Dragon` → `ice-dragon`, `NOC Pro Navy Blue` → `noc-pro-navy-blue`.
@@ -60,17 +60,26 @@ misses decks that exist.
 - No match after a real attempt? Carry on anyway: `add` uses the shelf crop as the front image, and
   `check` lists the deck as still missing a scan.
 
-## 5. Add
-`npm run -s deck add -- --id <id> --name "<Name>" --brand "<Brand>" [--qty N] [--hub URL] [--deckcollect URL] [--source URL]`
+## 5. Price
+`npm run -s deck price <words…>` lists playingcarddecks.com listings with retail prices (one deck, not bricks
+or sets). Record the price per deck, tagged with how it was found:
+- `listed`: this exact deck's listing. Also pass its URL as `--source`.
+- `similar`: a sibling colour or another edition (e.g. MetalLuxe Copper priced from MetalLuxe Gold).
+- `estimate`: no listing; judge from comparable decks (mass-market Bicycle ~$7–10, theory11 ~$13–15,
+  indie/craft/gilded ~$18–30).
+If Noah says what he actually paid, use that as `listed`.
+
+## 6. Add
+`npm run -s deck add -- --id <id> --name "<Name>" --brand "<Brand>" [--qty N] [--hub URL] [--deckcollect URL] [--source URL] --price <n> --price-source <listed|similar|estimate>`
 - Brand must reuse an existing spelling from decks.json (the filter chips in `src/App.jsx` match
   `Bicycle`, `theory11`, `NOC` and `Pure Imagination` exactly). `add` warns on a new brand. If you see that
   warning, double-check the brand. Use `Other` if the maker is unknown.
 
-## 6. Verify
+## 7. Verify
 `npm run -s deck check` and `npm run -s build` must both pass. Then delete `dist/`.
 
-## 7. Report, then push
-- Show a short table: deck, added/bumped, hub match (yes/no), confidence.
+## 8. Report, then push
+- Show a short table: deck, added/bumped, hub match (yes/no), price, confidence.
 - All confident → commit only the new/changed files (`src/decks.json`, `public/decks/<id>-*`), with the
   message `Add <Name>[, <Name>…]` (or `Add N decks` for a long list). Then `git push` to main. Netlify deploys
   automatically from main. In a cloud session, if pushing to main is refused, push a branch, open a PR, and
@@ -84,4 +93,4 @@ When Noah asks to "update the missing pictures" (often with PlayingCardHub names
 - `npm run -s deck check` lists decks still using their shelf photo as the front.
 - For each one: `search` (use Noah's name verbatim if he gave one), then `hub <existing id> <url>`, then
   compare the scan with the photo. No `add` is needed.
-- Then verify (step 6) and commit as `Add PlayingCardHub scans for <names>`.
+- Then verify (step 7) and commit as `Add PlayingCardHub scans for <names>`.

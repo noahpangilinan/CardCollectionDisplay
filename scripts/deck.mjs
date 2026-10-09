@@ -9,7 +9,8 @@ const DATA = path.join(ROOT, 'src', 'decks.json')
 const IMG_DIR = path.join(ROOT, 'public', 'decks')
 const INBOX = path.join(ROOT, 'inbox')
 
-const FIELDS = ['id', 'name', 'brand', 'qty', 'photo', 'image', 'fit', 'product', 'front', 'back', 'cardBack', 'source', 'hub', 'deckcollect']
+const FIELDS = ['id', 'name', 'brand', 'qty', 'photo', 'image', 'fit', 'product', 'front', 'back', 'cardBack', 'source', 'hub', 'deckcollect', 'price', 'priceSource']
+const PRICE_SOURCES = ['listed', 'similar', 'estimate']
 const IMAGE_FIELDS = ['photo', 'image', 'product', 'front', 'back', 'cardBack']
 
 const USAGE = `Usage: npm run deck <command> -- [args]
@@ -20,7 +21,9 @@ const USAGE = `Usage: npm run deck <command> -- [args]
   search <words...> [--pages N]          find PlayingCardHub deck pages, best name matches first (★ = all words)
   hub   <id> <playingcardhub url>        download tuck front/back scans -> <id>-front/-back.jpg
                                          (also updates the entry if <id> is already in decks.json)
+  price <words...>                       look up retail prices on playingcarddecks.com
   add   --id --name --brand [--qty N] [--hub URL] [--deckcollect URL] [--source URL]
+        [--price 9.99 --price-source listed|similar|estimate]
   bump  <id> [n]                         add n (default 1) to a deck's qty
   check                                  validate decks.json, list decks still missing a scan`
 
@@ -150,6 +153,19 @@ async function search(pos, { pages = '2' }) {
   for (const r of ranked.slice(0, 12)) console.log(`${r.score === 1 ? '★' : ' '} ${r.name}\n    ${r.link}`)
 }
 
+// playingcarddecks.com is a Shopify store, so its search-suggest endpoint returns products with prices.
+async function price(pos) {
+  const query = pos.join(' ')
+  if (!query) fail('price needs a query, e.g. npm run deck price garden gnome')
+  const url = `https://playingcarddecks.com/search/suggest.json?${new URLSearchParams({ q: query, 'resources[type]': 'product', 'resources[limit]': 8 })}`
+  const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' } })
+  if (!res.ok) fail(`fetching ${url} -> HTTP ${res.status}`)
+  const products = (await res.json()).resources.results.products
+  if (!products.length) fail(`no listings for "${query}". Estimate the price and use --price-source estimate`)
+  for (const p of products) console.log(`$${p.price.padStart(6)}  ${p.title}
+         https://playingcarddecks.com${p.url.split('?')[0]}`)
+}
+
 async function hub([id, url]) {
   checkId(id)
   if (!/^https:\/\/playingcardhub\.com\/decks\//.test(url ?? '')) fail('hub needs a https://playingcardhub.com/decks/... url')
@@ -201,6 +217,12 @@ function add(_, opts) {
   if (exists(`${id}-back.jpg`)) deck.back = pub(`${id}-back.jpg`)
   if (exists(`${id}-cardback.jpg`)) deck.cardBack = pub(`${id}-cardback.jpg`)
   for (const k of ['source', 'hub', 'deckcollect']) if (typeof opts[k] === 'string') deck[k] = opts[k]
+  if (opts.price !== undefined) {
+    deck.price = Number(opts.price)
+    deck.priceSource = opts['price-source'] ?? 'listed'
+    if (!(deck.price >= 0)) fail('--price must be a number')
+    if (!PRICE_SOURCES.includes(deck.priceSource)) fail(`--price-source must be one of ${PRICE_SOURCES.join(', ')}`)
+  }
 
   data.decks.push(deck)
   writeDecks(data)
@@ -231,6 +253,8 @@ function check() {
     for (const k of Object.keys(d)) if (!FIELDS.includes(k)) problems.push(`${who}: unknown field "${k}"`)
     if (d.image !== d.front) problems.push(`${who}: image should equal front`)
     if (!Number.isInteger(d.qty) || d.qty < 1) problems.push(`${who}: qty must be a positive integer`)
+    if (d.price !== undefined && (typeof d.price !== 'number' || d.price < 0)) problems.push(`${who}: price must be a number`)
+    if (d.price !== undefined && !PRICE_SOURCES.includes(d.priceSource)) problems.push(`${who}: priceSource must be one of ${PRICE_SOURCES.join(', ')}`)
     for (const k of IMAGE_FIELDS) if (d[k] && !fs.existsSync(local(d[k]))) problems.push(`${who}: ${k} file not found (${d[k]})`)
   }
   if (problems.length) {
@@ -238,13 +262,19 @@ function check() {
     process.exit(1)
   }
   console.log(`✓ ${decks.length} designs, ${decks.reduce((n, d) => n + d.qty, 0)} decks, all files present`)
+  const priced = decks.filter((d) => d.price !== undefined)
+  const total = priced.reduce((n, d) => n + d.price * d.qty, 0)
+  const est = priced.filter((d) => d.priceSource !== 'listed').reduce((n, d) => n + d.price * d.qty, 0)
+  console.log(`- retail value ≈ $${total.toFixed(0)} ($${est.toFixed(0)} of it similar-listing or estimated)`)
+  const unpriced = decks.filter((d) => d.price === undefined)
+  if (unpriced.length) console.log(`- no price yet: ${unpriced.map((d) => d.id).join(', ')}`)
   const noScan = decks.filter((d) => d.front === d.photo)
   if (noScan.length) console.log(`- using the shelf photo as the front (no scan yet): ${noScan.map((d) => d.id).join(', ')}`)
 }
 
 // ---------- main ----------
 
-const commands = { grid, crop, search, hub, add, bump, check }
+const commands = { grid, crop, search, price, hub, add, bump, check }
 const [cmd, ...rest] = process.argv.slice(2)
 if (!commands[cmd]) {
   console.log(USAGE)

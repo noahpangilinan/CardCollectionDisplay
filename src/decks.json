@@ -10,7 +10,9 @@
     "fit": "cover",
     "product": "/decks/garden-gnome.jpg",
     "front": "/decks/garden-gnome-front.jpg",
-    "hub": "https://playingcardhub.com/decks/01kjk04rx55ysgeqq2382ms07e-garden-gnome-bicycle"
+    "hub": "https://playingcardhub.com/decks/01kjk04rx55ysgeqq2382ms07e-garden-gnome-bicycle",
+    "price": 7.99,
+    "priceSource": "listed"
   },
   {
     "id": "orange-rider-back",
@@ -24,7 +26,9 @@
     "product": "/decks/orange-rider-back.jpg",
     "front": "/decks/orange-rider-back-front.jpg",
     "back": "/decks/orange-rider-back-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgryf7xbsbj01g5ajdrtb57d-rider-back-orange-bicycle-ohio"
+    "hub": "https://playingcardhub.com/decks/01jgryf7xbsbj01g5ajdrtb57d-rider-back-orange-bicycle-ohio",
+    "price": 7.99,
+    "priceSource": "listed"
   },
   {
     "id": "noc-pro-navy-blue",
@@ -38,7 +42,9 @@
     "product": "/decks/noc-pro-navy-blue.jpg",
     "front": "/decks/noc-pro-navy-blue-front.jpg",
     "back": "/decks/noc-pro-navy-blue-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/RzKeNhrw"
+    "deckcollect": "https://deckcollect.com/deck/RzKeNhrw",
+    "price": 11.99,
+    "priceSource": "listed"
   },
   {
     "id": "metalluxe-gold",
@@ -52,7 +58,9 @@
     "product": null,
     "front": "/decks/metalluxe-gold-front.jpg",
     "back": "/decks/metalluxe-gold-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01k3n46dzvxqapmttf5mj38sa4-metalluxe-black-and-gold"
+    "hub": "https://playingcardhub.com/decks/01k3n46dzvxqapmttf5mj38sa4-metalluxe-black-and-gold",
+    "price": 11.99,
+    "priceSource": "listed"
   },
   {
     "id": "metalluxe-silver",
@@ -65,7 +73,9 @@
     "back": "/decks/metalluxe-silver-back.jpg",
     "image": "/decks/metalluxe-silver-front.jpg",
     "fit": "cover",
-    "hub": "https://playingcardhub.com/decks/01k3n46enent4p7tpxat630r60-metalluxe-black-and-silver"
+    "hub": "https://playingcardhub.com/decks/01k3n46enent4p7tpxat630r60-metalluxe-black-and-silver",
+    "price": 11.99,
+    "priceSource": "listed"
   },
   {
     "id": "metalluxe-copper",
@@ -78,7 +88,9 @@
     "back": "/decks/metalluxe-copper-back.jpg",
     "image": "/decks/metalluxe-copper-front.jpg",
     "fit": "cover",
-    "hub": "https://playingcardhub.com/decks/01k3n46b4y51sdn6k09r66hcfv-metalluxe-black-and-rose-gold"
+    "hub": "https://playingcardhub.com/decks/01k3n46b4y51sdn6k09r66hcfv-metalluxe-black-and-rose-gold",
+    "price": 11.99,
+    "priceSource": "similar"
   },
   {
     "id": "tactical-field",
@@ -92,7 +104,9 @@
     "product": null,
     "front": "/decks/tactical-field-front.jpg",
     "back": "/decks/tactical-field-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgsd207m4e2kn95fmmyp7hdc-tactical-field-navy-blue-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgsd207m4e2kn95fmmyp7hdc-tactical-field-navy-blue-bicycle",
+    "price": 6.99,
+    "priceSource": "listed"
   },
   {
     "id": "cypher",
@@ -106,7 +120,9 @@
     "product": null,
     "front": "/decks/cypher-front.jpg",
     "back": "/decks/cypher-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs9wjchny1e78pe89nbsceg-cypher-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs9wjchny1e78pe89nbsceg-cypher-bicycle",
+    "price": 6.99,
+    "priceSource": "estimate"
   },
   {
     "id": "lonely-wolf",
@@ -120,7 +136,9 @@
     "product": "/decks/lonely-wolf.jpg",
     "front": "/decks/lonely-wolf-front.jpg",
     "back": "/decks/lonely-wolf-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs6prafcz1hvbaqnkcedx5j-lonely-wolf"
+    "hub": "https://playingcardhub.com/decks/01jgs6prafcz1hvbaqnkcedx5j-lonely-wolf",
+    "price": 6.99,
+    "priceSource": "listed"
   },
   {
     "id": "panda",
@@ -134,7 +152,9 @@
     "product": "/decks/panda.jpg",
     "front": "/decks/panda-front.jpg",
     "back": "/decks/panda-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/oqFlrKdX"
+    "deckcollect": "https://deckcollect.com/deck/oqFlrKdX",
+    "price": 7.99,
+    "priceSource": "listed"
   },
   {
     "id": "vitreous",
@@ -148,7 +168,9 @@
     "product": "/decks/vitreous.jpg",
     "front": "/decks/vitreous-front.jpg",
     "back": "/decks/vitreous-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs0xhq3t31484xepn2wspxn-vitreous"
+    "hub": "https://playingcardhub.com/decks/01jgs0xhq3t31484xepn2wspxn-vitreous",
+    "price": 11.99,
+    "priceSource": "listed"
   },
   {
     "id": "140th-anniversary",
@@ -163,7 +185,9 @@
     "front": "/decks/140th-anniversary-front.jpg",
     "back": "/decks/140th-anniversary-back.jpg",
     "cardBack": "/decks/140th-anniversary-cardback.jpg",
-    "deckcollect": "https://deckcollect.com/deck/2WCY5XM6"
+    "deckcollect": "https://deckcollect.com/deck/2WCY5XM6",
+    "price": 12.99,
+    "priceSource": "listed"
   },
   {
     "id": "noc-pro-burgundy",
@@ -177,7 +201,9 @@
     "product": "/decks/noc-pro-burgundy.jpg",
     "front": "/decks/noc-pro-burgundy-front.jpg",
     "back": "/decks/noc-pro-burgundy-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/sPU8jaGo"
+    "deckcollect": "https://deckcollect.com/deck/sPU8jaGo",
+    "price": 11.99,
+    "priceSource": "listed"
   },
   {
     "id": "ice-dragon",
@@ -189,7 +215,9 @@
     "fit": "cover",
     "product": null,
     "hub": "https://playingcardhub.com/decks/01kz9ncvg1vr68zgj7kg59pgcx-bicycle-ice-dragon",
-    "front": "/decks/ice-dragon-front.jpg"
+    "front": "/decks/ice-dragon-front.jpg",
+    "price": 9.99,
+    "priceSource": "estimate"
   },
   {
     "id": "jacquard",
@@ -202,7 +230,9 @@
     "product": null,
     "front": "/decks/jacquard-front.jpg",
     "back": "/decks/jacquard-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs9wkhm30pvg5yk716er4qs-jacquard-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs9wkhm30pvg5yk716er4qs-jacquard-bicycle",
+    "price": 7.99,
+    "priceSource": "estimate"
   },
   {
     "id": "animal-kingdom",
@@ -215,7 +245,9 @@
     "fit": "cover",
     "product": "/decks/animal-kingdom.jpg",
     "front": "/decks/animal-kingdom-front.jpg",
-    "deckcollect": "https://deckcollect.com/deck/s18jaGon"
+    "deckcollect": "https://deckcollect.com/deck/s18jaGon",
+    "price": 12.95,
+    "priceSource": "listed"
   },
   {
     "id": "cocktail-recipes",
@@ -229,7 +261,9 @@
     "product": "/decks/cocktail-recipes.jpg",
     "front": "/decks/cocktail-recipes-front.jpg",
     "back": "/decks/cocktail-recipes-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgsdssk9gamk7220ek7bdbpr-cocktail-recipes-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgsdssk9gamk7220ek7bdbpr-cocktail-recipes-bicycle",
+    "price": 9.99,
+    "priceSource": "listed"
   },
   {
     "id": "dmc-elites-v5",
@@ -242,7 +276,9 @@
     "product": null,
     "front": "/decks/dmc-elites-v5-front.jpg",
     "back": "/decks/dmc-elites-v5-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs5bmyzyzx6frca51mgsjhk-dmc-elites-v5"
+    "hub": "https://playingcardhub.com/decks/01jgs5bmyzyzx6frca51mgsjhk-dmc-elites-v5",
+    "price": 19.99,
+    "priceSource": "similar"
   },
   {
     "id": "moon",
@@ -256,7 +292,9 @@
     "product": null,
     "front": "/decks/moon-front.jpg",
     "back": "/decks/moon-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/aqjtNvLS"
+    "deckcollect": "https://deckcollect.com/deck/aqjtNvLS",
+    "price": 8.99,
+    "priceSource": "listed"
   },
   {
     "id": "noc-pro-greystone",
@@ -270,7 +308,9 @@
     "product": "/decks/noc-pro-greystone.jpg",
     "front": "/decks/noc-pro-greystone-front.jpg",
     "back": "/decks/noc-pro-greystone-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/GShUcnUY"
+    "deckcollect": "https://deckcollect.com/deck/GShUcnUY",
+    "price": 11.99,
+    "priceSource": "listed"
   },
   {
     "id": "memento-mori-nxs",
@@ -283,7 +323,9 @@
     "product": null,
     "front": "/decks/memento-mori-nxs-front.jpg",
     "back": "/decks/memento-mori-nxs-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs24dpcbfwp0w1pqc11jttv-memento-mori-nxs-nexus"
+    "hub": "https://playingcardhub.com/decks/01jgs24dpcbfwp0w1pqc11jttv-memento-mori-nxs-nexus",
+    "price": 13.99,
+    "priceSource": "listed"
   },
   {
     "id": "memento-mori-v2-white",
@@ -298,7 +340,9 @@
     "front": "/decks/memento-mori-v2-white-front.jpg",
     "back": "/decks/memento-mori-v2-white-back.jpg",
     "cardBack": "/decks/memento-mori-v2-white-cardback.jpg",
-    "deckcollect": "https://deckcollect.com/deck/vhKmzDoN"
+    "deckcollect": "https://deckcollect.com/deck/vhKmzDoN",
+    "price": 13.99,
+    "priceSource": "similar"
   },
   {
     "id": "star-wars-dark-side",
@@ -313,7 +357,9 @@
     "front": "/decks/star-wars-dark-side-front.jpg",
     "back": "/decks/star-wars-dark-side-back.jpg",
     "cardBack": "/decks/star-wars-dark-side-cardback.jpg",
-    "deckcollect": "https://deckcollect.com/deck/UW3LWZg9"
+    "deckcollect": "https://deckcollect.com/deck/UW3LWZg9",
+    "price": 13.99,
+    "priceSource": "listed"
   },
   {
     "id": "ice",
@@ -327,7 +373,9 @@
     "product": "/decks/ice.jpg",
     "front": "/decks/ice-front.jpg",
     "back": "/decks/ice-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs22f8hf45x4z6bj9rfabvy-ice-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs22f8hf45x4z6bj9rfabvy-ice-bicycle",
+    "price": 4.99,
+    "priceSource": "listed"
   },
   {
     "id": "monarchs",
@@ -341,7 +389,9 @@
     "product": "/decks/monarchs.jpg",
     "front": "/decks/monarchs-front.jpg",
     "back": "/decks/monarchs-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs2r8f71hzh85y1nzymbpmx-monarchs-blue-v2"
+    "hub": "https://playingcardhub.com/decks/01jgs2r8f71hzh85y1nzymbpmx-monarchs-blue-v2",
+    "price": 14.99,
+    "priceSource": "listed"
   },
   {
     "id": "aristocrat-linen-blue-2017",
@@ -354,7 +404,9 @@
     "product": null,
     "front": "/decks/aristocrat-linen-blue-2017-front.jpg",
     "back": "/decks/aristocrat-linen-blue-2017-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs9fgn8x6s1q5qf9zy3qcjp-aristocrat-linen-finish-blue-2017"
+    "hub": "https://playingcardhub.com/decks/01jgs9fgn8x6s1q5qf9zy3qcjp-aristocrat-linen-finish-blue-2017",
+    "price": 10.5,
+    "priceSource": "similar"
   },
   {
     "id": "obey",
@@ -368,7 +420,9 @@
     "product": "/decks/obey.jpg",
     "front": "/decks/obey-front.jpg",
     "back": "/decks/obey-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/FCFGX8Na"
+    "deckcollect": "https://deckcollect.com/deck/FCFGX8Na",
+    "price": 17.99,
+    "priceSource": "listed"
   },
   {
     "id": "green-rider-back",
@@ -382,7 +436,9 @@
     "product": "/decks/green-rider-back.jpg",
     "front": "/decks/green-rider-back-front.jpg",
     "back": "/decks/green-rider-back-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs2pz6t69ghgkzf05eywv5t-rider-back-green-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs2pz6t69ghgkzf05eywv5t-rider-back-green-bicycle",
+    "price": 7.99,
+    "priceSource": "listed"
   },
   {
     "id": "noc-pro-jet-black",
@@ -396,7 +452,9 @@
     "product": "/decks/noc-pro-jet-black.jpg",
     "front": "/decks/noc-pro-jet-black-front.jpg",
     "back": "/decks/noc-pro-jet-black-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/ecp6l8wV"
+    "deckcollect": "https://deckcollect.com/deck/ecp6l8wV",
+    "price": 11.99,
+    "priceSource": "listed"
   },
   {
     "id": "muralis",
@@ -410,7 +468,9 @@
     "product": "/decks/muralis.jpg",
     "front": "/decks/muralis-front.jpg",
     "back": "/decks/muralis-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs7ddx41k2bnejzye85hxec-muralis-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs7ddx41k2bnejzye85hxec-muralis-bicycle",
+    "price": 6.49,
+    "priceSource": "listed"
   },
   {
     "id": "fyrebird",
@@ -424,7 +484,9 @@
     "product": "/decks/fyrebird.jpg",
     "front": "/decks/fyrebird-front.jpg",
     "back": "/decks/fyrebird-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs59c0ssv9htxyp7m7mpjrj-fyrebird-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs59c0ssv9htxyp7m7mpjrj-fyrebird-bicycle",
+    "price": 7.99,
+    "priceSource": "listed"
   },
   {
     "id": "marquis",
@@ -438,7 +500,9 @@
     "product": "/decks/marquis.jpg",
     "front": "/decks/marquis-front.jpg",
     "back": "/decks/marquis-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs7dvajedmj13cxp2yygtf2-marquis-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs7dvajedmj13cxp2yygtf2-marquis-bicycle",
+    "price": 7.99,
+    "priceSource": "listed"
   },
   {
     "id": "cartelago-mirinos",
@@ -451,7 +515,9 @@
     "product": null,
     "front": "/decks/cartelago-mirinos-front.jpg",
     "back": "/decks/cartelago-mirinos-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jsysp05y7yznz1eeyk8shq9x-cartelago-mirinos"
+    "hub": "https://playingcardhub.com/decks/01jsysp05y7yznz1eeyk8shq9x-cartelago-mirinos",
+    "price": 11.99,
+    "priceSource": "similar"
   },
   {
     "id": "pastel-blue",
@@ -465,7 +531,9 @@
     "product": "/decks/pastel-blue.jpg",
     "front": "/decks/pastel-blue-front.jpg",
     "back": "/decks/pastel-blue-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01kx1ewjzrdk60vjpb6sg6xt74-blue-pastel"
+    "hub": "https://playingcardhub.com/decks/01kx1ewjzrdk60vjpb6sg6xt74-blue-pastel",
+    "price": 9.99,
+    "priceSource": "listed"
   },
   {
     "id": "cherry-casino-red",
@@ -479,7 +547,9 @@
     "product": null,
     "front": "/decks/cherry-casino-red-front.jpg",
     "back": "/decks/cherry-casino-red-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/5CkQZnCR"
+    "deckcollect": "https://deckcollect.com/deck/5CkQZnCR",
+    "price": 13.99,
+    "priceSource": "similar"
   },
   {
     "id": "spellbound",
@@ -493,7 +563,9 @@
     "product": "/decks/spellbound.jpg",
     "front": "/decks/spellbound-front.jpg",
     "hub": "https://playingcardhub.com/decks/01jxz5f6bt4jff36wn92c3eckj-spellbound",
-    "back": "/decks/spellbound-back.jpg"
+    "back": "/decks/spellbound-back.jpg",
+    "price": 9.99,
+    "priceSource": "listed"
   },
   {
     "id": "year-of-the-snake",
@@ -507,7 +579,9 @@
     "product": "/decks/year-of-the-snake.jpg",
     "front": "/decks/year-of-the-snake-front.jpg",
     "back": "/decks/year-of-the-snake-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/2g1Y5XM6"
+    "deckcollect": "https://deckcollect.com/deck/2g1Y5XM6",
+    "price": 9.99,
+    "priceSource": "listed"
   },
   {
     "id": "mystical-pirates",
@@ -520,7 +594,9 @@
     "product": null,
     "front": "/decks/mystical-pirates-front.jpg",
     "back": "/decks/mystical-pirates-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgsabwv6dn7fte1nwke3sar9-mystical-pirates"
+    "hub": "https://playingcardhub.com/decks/01jgsabwv6dn7fte1nwke3sar9-mystical-pirates",
+    "price": 17.99,
+    "priceSource": "listed"
   },
   {
     "id": "the-planets-jupiter",
@@ -534,7 +610,9 @@
     "product": "/decks/the-planets-jupiter.jpg",
     "front": "/decks/the-planets-jupiter-front.jpg",
     "back": "/decks/the-planets-jupiter-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/sdi8jaGo"
+    "deckcollect": "https://deckcollect.com/deck/sdi8jaGo",
+    "price": 19.99,
+    "priceSource": "listed"
   },
   {
     "id": "horse-dragon-brewing",
@@ -548,7 +626,9 @@
     "product": null,
     "front": "/decks/horse-dragon-brewing-front.jpg",
     "back": "/decks/horse-dragon-brewing-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jsytr5pwdde116jbfzptec2b-horse-dragon-brewing-company"
+    "hub": "https://playingcardhub.com/decks/01jsytr5pwdde116jbfzptec2b-horse-dragon-brewing-company",
+    "price": 9.99,
+    "priceSource": "estimate"
   },
   {
     "id": "under-the-sea",
@@ -561,7 +641,9 @@
     "fit": "cover",
     "product": "/decks/under-the-sea.jpg",
     "front": "/decks/under-the-sea-front.jpg",
-    "hub": "https://playingcardhub.com/decks/01kr62zefz85vjww99150jkdzd-under-the-sea"
+    "hub": "https://playingcardhub.com/decks/01kr62zefz85vjww99150jkdzd-under-the-sea",
+    "price": 7.99,
+    "priceSource": "listed"
   },
   {
     "id": "pink-rider-back",
@@ -574,7 +656,9 @@
     "fit": "cover",
     "product": null,
     "front": "/decks/pink-rider-back-front.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs22amcqn3rm7fbpp3gv31j-rider-back-fashion-pink"
+    "hub": "https://playingcardhub.com/decks/01jgs22amcqn3rm7fbpp3gv31j-rider-back-fashion-pink",
+    "price": 7.99,
+    "priceSource": "similar"
   },
   {
     "id": "cherry-casino-monte-carlo",
@@ -587,7 +671,9 @@
     "fit": "cover",
     "product": "/decks/cherry-casino-monte-carlo.jpg",
     "front": "/decks/cherry-casino-monte-carlo-front.jpg",
-    "deckcollect": "https://deckcollect.com/deck/p6nklVeM"
+    "deckcollect": "https://deckcollect.com/deck/p6nklVeM",
+    "price": 74.95,
+    "priceSource": "listed"
   },
   {
     "id": "st-ssy",
@@ -601,7 +687,9 @@
     "product": null,
     "front": "/decks/st-ssy-front.jpg",
     "back": "/decks/st-ssy-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs2qm2zcsavzww4bdvmca0j-stussy-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs2qm2zcsavzww4bdvmca0j-stussy-bicycle",
+    "price": 24.99,
+    "priceSource": "estimate"
   },
   {
     "id": "prototype-metalluxe-iridescent",
@@ -613,7 +701,9 @@
     "fit": "cover",
     "product": null,
     "front": "/decks/prototype-metalluxe-iridescent-front.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs9yg75y9wh1yb783rer9hc-prototype-metalluxe-iridescent-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs9yg75y9wh1yb783rer9hc-prototype-metalluxe-iridescent-bicycle",
+    "price": 19.99,
+    "priceSource": "similar"
   },
   {
     "id": "dark-mode",
@@ -626,7 +716,9 @@
     "product": null,
     "front": "/decks/dark-mode-front.jpg",
     "back": "/decks/dark-mode-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs59c4fwyh7cfkandfekajt-dark-mode-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs59c4fwyh7cfkandfekajt-dark-mode-bicycle",
+    "price": 7.99,
+    "priceSource": "listed"
   },
   {
     "id": "solokid",
@@ -640,7 +732,9 @@
     "product": null,
     "front": "/decks/solokid-front.jpg",
     "back": "/decks/solokid-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs8f1qyta2739ssrt3djzv8-solokid-rainbow-dream-purple-blue"
+    "hub": "https://playingcardhub.com/decks/01jgs8f1qyta2739ssrt3djzv8-solokid-rainbow-dream-purple-blue",
+    "price": 6.99,
+    "priceSource": "listed"
   },
   {
     "id": "royal",
@@ -653,7 +747,9 @@
     "product": null,
     "front": "/decks/royal-front.jpg",
     "back": "/decks/royal-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01kxdr8wqq24mgbhcez3w3fd88-royal"
+    "hub": "https://playingcardhub.com/decks/01kxdr8wqq24mgbhcez3w3fd88-royal",
+    "price": 9.99,
+    "priceSource": "estimate"
   },
   {
     "id": "hello-kitty",
@@ -667,7 +763,9 @@
     "product": null,
     "front": "/decks/hello-kitty-front.jpg",
     "back": "/decks/hello-kitty-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/gEBHJdmf"
+    "deckcollect": "https://deckcollect.com/deck/gEBHJdmf",
+    "price": 9.99,
+    "priceSource": "similar"
   },
   {
     "id": "yellow-rider-back",
@@ -681,7 +779,9 @@
     "product": "/decks/yellow-rider-back.jpg",
     "front": "/decks/yellow-rider-back-front.jpg",
     "back": "/decks/yellow-rider-back-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgryfawx9n1e6sqw69qn3ks6-rider-back-yellow-bicycle-ohio"
+    "hub": "https://playingcardhub.com/decks/01jgryfawx9n1e6sqw69qn3ks6-rider-back-yellow-bicycle-ohio",
+    "price": 7.99,
+    "priceSource": "listed"
   },
   {
     "id": "cherry-casino-silver",
@@ -695,7 +795,9 @@
     "product": null,
     "front": "/decks/cherry-casino-silver-front.jpg",
     "back": "/decks/cherry-casino-silver-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/8xgR0I7f"
+    "deckcollect": "https://deckcollect.com/deck/8xgR0I7f",
+    "price": 13.99,
+    "priceSource": "similar"
   },
   {
     "id": "cherry-casino-black-hawk",
@@ -709,7 +811,9 @@
     "product": "/decks/cherry-casino-black-hawk.jpg",
     "front": "/decks/cherry-casino-black-hawk-front.jpg",
     "back": "/decks/cherry-casino-black-hawk-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs1dacea0a34js9zrw3h6ha-cherry-casino-v3-black-hawk"
+    "hub": "https://playingcardhub.com/decks/01jgs1dacea0a34js9zrw3h6ha-cherry-casino-v3-black-hawk",
+    "price": 74.95,
+    "priceSource": "listed"
   },
   {
     "id": "tally-ho-heart",
@@ -723,7 +827,9 @@
     "product": null,
     "front": "/decks/tally-ho-heart-front.jpg",
     "back": "/decks/tally-ho-heart-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgsbykae9xzgd6k1c8z1wepn-heart-tally-ho"
+    "hub": "https://playingcardhub.com/decks/01jgsbykae9xzgd6k1c8z1wepn-heart-tally-ho",
+    "price": 10.99,
+    "priceSource": "listed"
   },
   {
     "id": "monkey-king-erlang-modern",
@@ -737,7 +843,9 @@
     "product": null,
     "front": "/decks/monkey-king-erlang-modern-front.jpg",
     "back": "/decks/monkey-king-erlang-modern-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgsasjaspp708zqb1wkc91p1-monkey-king-series-erlang-modern"
+    "hub": "https://playingcardhub.com/decks/01jgsasjaspp708zqb1wkc91p1-monkey-king-series-erlang-modern",
+    "price": 17.99,
+    "priceSource": "similar"
   },
   {
     "id": "dragon",
@@ -751,7 +859,9 @@
     "product": "/decks/dragon.jpg",
     "front": "/decks/dragon-front.jpg",
     "back": "/decks/dragon-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/iHQDfaj7"
+    "deckcollect": "https://deckcollect.com/deck/iHQDfaj7",
+    "price": 9.99,
+    "priceSource": "listed"
   },
   {
     "id": "bee-year-of-the-snake",
@@ -763,7 +873,9 @@
     "fit": "cover",
     "product": null,
     "front": "/decks/bee-year-of-the-snake-front.jpg",
-    "hub": "https://playingcardhub.com/decks/01jw3bpdgsr1ve6r7qj2wyvpcg-bee-year-of-the-snake"
+    "hub": "https://playingcardhub.com/decks/01jw3bpdgsr1ve6r7qj2wyvpcg-bee-year-of-the-snake",
+    "price": 8.99,
+    "priceSource": "estimate"
   },
   {
     "id": "back-to-the-future",
@@ -776,7 +888,9 @@
     "fit": "cover",
     "product": "/decks/back-to-the-future.jpg",
     "front": "/decks/back-to-the-future-front.jpg",
-    "deckcollect": "https://deckcollect.com/deck/HbJVtlDr"
+    "deckcollect": "https://deckcollect.com/deck/HbJVtlDr",
+    "price": 11.99,
+    "priceSource": "listed"
   },
   {
     "id": "neon-orange-bump",
@@ -789,7 +903,9 @@
     "product": null,
     "front": "/decks/neon-orange-bump-front.jpg",
     "back": "/decks/neon-orange-bump-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs4hsd8944fg2vb865zsds3-neon-orange-bump-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs4hsd8944fg2vb865zsds3-neon-orange-bump-bicycle",
+    "price": 6.99,
+    "priceSource": "listed"
   },
   {
     "id": "navigators",
@@ -803,7 +919,9 @@
     "product": "/decks/navigators.jpg",
     "front": "/decks/navigators-front.jpg",
     "back": "/decks/navigators-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/ueX2YK1r"
+    "deckcollect": "https://deckcollect.com/deck/ueX2YK1r",
+    "price": 12.95,
+    "priceSource": "listed"
   },
   {
     "id": "sumi-kitsune-original-craft",
@@ -816,7 +934,9 @@
     "product": null,
     "front": "/decks/sumi-kitsune-original-craft-front.jpg",
     "back": "/decks/sumi-kitsune-original-craft-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs3nt172h2bt6qqathjrybh-sumi-kitsune-original-craft"
+    "hub": "https://playingcardhub.com/decks/01jgs3nt172h2bt6qqathjrybh-sumi-kitsune-original-craft",
+    "price": 24.99,
+    "priceSource": "similar"
   },
   {
     "id": "constellation-mystique-purple",
@@ -829,7 +949,9 @@
     "product": null,
     "front": "/decks/constellation-mystique-purple-front.jpg",
     "back": "/decks/constellation-mystique-purple-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs850cmq60gt2werjdq5pak-constellation-mystique-purple-gilded"
+    "hub": "https://playingcardhub.com/decks/01jgs850cmq60gt2werjdq5pak-constellation-mystique-purple-gilded",
+    "price": 29.99,
+    "priceSource": "estimate"
   },
   {
     "id": "mythical-creatures",
@@ -842,7 +964,9 @@
     "product": null,
     "front": "/decks/mythical-creatures-front.jpg",
     "back": "/decks/mythical-creatures-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs1fntpp75sfwvq7yeat8pe-mythical-creatures-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs1fntpp75sfwvq7yeat8pe-mythical-creatures-bicycle",
+    "price": 9.99,
+    "priceSource": "estimate"
   },
   {
     "id": "wonderful-wizard-of-oz",
@@ -857,7 +981,9 @@
     "front": "/decks/wonderful-wizard-of-oz-front.jpg",
     "back": "/decks/wonderful-wizard-of-oz-back.jpg",
     "cardBack": "/decks/wonderful-wizard-of-oz-cardback.jpg",
-    "deckcollect": "https://deckcollect.com/deck/zracwP3Z"
+    "deckcollect": "https://deckcollect.com/deck/zracwP3Z",
+    "price": 12.99,
+    "priceSource": "listed"
   },
   {
     "id": "neptune-s-graveyard",
@@ -871,7 +997,9 @@
     "product": "/decks/neptune-s-graveyard.jpg",
     "front": "/decks/neptune-s-graveyard-front.jpg",
     "back": "/decks/neptune-s-graveyard-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgsb05ss26w8k9k3v97ayn0r-neptunes-graveyard-siren-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgsb05ss26w8k9k3v97ayn0r-neptunes-graveyard-siren-bicycle",
+    "price": 12.95,
+    "priceSource": "listed"
   },
   {
     "id": "sweet-peas",
@@ -885,7 +1013,9 @@
     "product": "/decks/sweet-peas.jpg",
     "front": "/decks/sweet-peas-front.jpg",
     "back": "/decks/sweet-peas-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgsaf055zgbf5mhbzkfagh2q-sweet-peas"
+    "hub": "https://playingcardhub.com/decks/01jgsaf055zgbf5mhbzkfagh2q-sweet-peas",
+    "price": 4.99,
+    "priceSource": "listed"
   },
   {
     "id": "hidden",
@@ -899,7 +1029,9 @@
     "product": "/decks/hidden.jpg",
     "front": "/decks/hidden-front.jpg",
     "back": "/decks/hidden-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs1vn8y395zp4qtsma8pr22-hidden-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs1vn8y395zp4qtsma8pr22-hidden-bicycle",
+    "price": 9.99,
+    "priceSource": "listed"
   },
   {
     "id": "jean-michel-basquiat",
@@ -913,7 +1045,9 @@
     "product": "/decks/jean-michel-basquiat.jpg",
     "front": "/decks/jean-michel-basquiat-front.jpg",
     "back": "/decks/jean-michel-basquiat-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/kawKT9MV"
+    "deckcollect": "https://deckcollect.com/deck/kawKT9MV",
+    "price": 16.99,
+    "priceSource": "listed"
   },
   {
     "id": "union",
@@ -927,7 +1061,9 @@
     "product": "/decks/union.jpg",
     "front": "/decks/union-front.jpg",
     "back": "/decks/union-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/OE9JLhNc"
+    "deckcollect": "https://deckcollect.com/deck/OE9JLhNc",
+    "price": 12.95,
+    "priceSource": "listed"
   },
   {
     "id": "provision",
@@ -941,7 +1077,9 @@
     "product": "/decks/provision.jpg",
     "front": "/decks/provision-front.jpg",
     "back": "/decks/provision-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/VIoXmZF3"
+    "deckcollect": "https://deckcollect.com/deck/VIoXmZF3",
+    "price": 12.99,
+    "priceSource": "listed"
   },
   {
     "id": "prismatic",
@@ -954,7 +1092,9 @@
     "product": null,
     "front": "/decks/prismatic-front.jpg",
     "back": "/decks/prismatic-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgsbs0eekbddewh0hd0ghyne-prismatic-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgsbs0eekbddewh0hd0ghyne-prismatic-bicycle",
+    "price": 11.99,
+    "priceSource": "listed"
   },
   {
     "id": "standard-blue-2009",
@@ -967,7 +1107,9 @@
     "product": null,
     "front": "/decks/standard-blue-2009-front.jpg",
     "hub": "https://playingcardhub.com/decks/01jgs392be2pds2jwc3883j0vj-standard-blue-bicycle-2009",
-    "back": "/decks/standard-blue-2009-back.jpg"
+    "back": "/decks/standard-blue-2009-back.jpg",
+    "price": 3.99,
+    "priceSource": "estimate"
   },
   {
     "id": "high-victorian-green",
@@ -981,7 +1123,9 @@
     "product": "/decks/high-victorian-green.jpg",
     "front": "/decks/high-victorian-green-front.jpg",
     "back": "/decks/high-victorian-green-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/EHbhxLZ9"
+    "deckcollect": "https://deckcollect.com/deck/EHbhxLZ9",
+    "price": 14.99,
+    "priceSource": "listed"
   },
   {
     "id": "contraband",
@@ -994,7 +1138,9 @@
     "fit": "cover",
     "product": "/decks/contraband.jpg",
     "front": "/decks/contraband-front.jpg",
-    "deckcollect": "https://deckcollect.com/deck/msx3nOJa"
+    "deckcollect": "https://deckcollect.com/deck/msx3nOJa",
+    "price": 12.99,
+    "priceSource": "listed"
   },
   {
     "id": "verbena",
@@ -1008,7 +1154,9 @@
     "product": null,
     "front": "/decks/verbena-front.jpg",
     "back": "/decks/verbena-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/8SgR0I7f"
+    "deckcollect": "https://deckcollect.com/deck/8SgR0I7f",
+    "price": 9.99,
+    "priceSource": "listed"
   },
   {
     "id": "archangels",
@@ -1021,7 +1169,9 @@
     "fit": "cover",
     "product": "/decks/archangels.jpg",
     "front": "/decks/archangels-front.jpg",
-    "deckcollect": "https://deckcollect.com/deck/ed6l8wVq"
+    "deckcollect": "https://deckcollect.com/deck/ed6l8wVq",
+    "price": 8.99,
+    "priceSource": "listed"
   },
   {
     "id": "knights",
@@ -1034,7 +1184,9 @@
     "fit": "cover",
     "product": null,
     "front": "/decks/knights-front.jpg",
-    "deckcollect": "https://deckcollect.com/deck/PjHNMcnN"
+    "deckcollect": "https://deckcollect.com/deck/PjHNMcnN",
+    "price": 14.99,
+    "priceSource": "estimate"
   },
   {
     "id": "the-cold-king-arrives",
@@ -1047,7 +1199,9 @@
     "product": null,
     "front": "/decks/the-cold-king-arrives-front.jpg",
     "back": "/decks/the-cold-king-arrives-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgscdg33s3xdvpsjzbpfwnya-chilly-weather-the-cold-king-arrives-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgscdg33s3xdvpsjzbpfwnya-chilly-weather-the-cold-king-arrives-bicycle",
+    "price": 9.99,
+    "priceSource": "similar"
   },
   {
     "id": "the-lion-king",
@@ -1061,7 +1215,9 @@
     "product": "/decks/the-lion-king.jpg",
     "front": "/decks/the-lion-king-front.jpg",
     "back": "/decks/the-lion-king-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/lFBiGAYK"
+    "deckcollect": "https://deckcollect.com/deck/lFBiGAYK",
+    "price": 12.99,
+    "priceSource": "listed"
   },
   {
     "id": "standard-red-2009",
@@ -1074,7 +1230,9 @@
     "product": null,
     "front": "/decks/standard-red-2009-front.jpg",
     "hub": "https://playingcardhub.com/decks/01jgs3927gzqhq2z72ephet6pe-standard-red-bicycle-2009",
-    "back": "/decks/standard-red-2009-back.jpg"
+    "back": "/decks/standard-red-2009-back.jpg",
+    "price": 3.99,
+    "priceSource": "estimate"
   },
   {
     "id": "the-dogs-diary",
@@ -1087,7 +1245,9 @@
     "product": null,
     "front": "/decks/the-dogs-diary-front.jpg",
     "back": "/decks/the-dogs-diary-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jsyvf259vzmhe1vytsn0smmc-the-dogs-diary-playing-cards-orange"
+    "hub": "https://playingcardhub.com/decks/01jsyvf259vzmhe1vytsn0smmc-the-dogs-diary-playing-cards-orange",
+    "price": 15.99,
+    "priceSource": "similar"
   },
   {
     "id": "keith-haring",
@@ -1100,7 +1260,9 @@
     "fit": "cover",
     "product": "/decks/keith-haring.jpg",
     "front": "/decks/keith-haring-front.jpg",
-    "deckcollect": "https://deckcollect.com/deck/P9bNMcnN"
+    "deckcollect": "https://deckcollect.com/deck/P9bNMcnN",
+    "price": 14.99,
+    "priceSource": "listed"
   },
   {
     "id": "third-man-records",
@@ -1113,7 +1275,9 @@
     "product": null,
     "front": "/decks/third-man-records-front.jpg",
     "back": "/decks/third-man-records-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs2a2tj2k1fp7g7dxg1dm1k-third-man-records"
+    "hub": "https://playingcardhub.com/decks/01jgs2a2tj2k1fp7g7dxg1dm1k-third-man-records",
+    "price": 19.99,
+    "priceSource": "listed"
   },
   {
     "id": "star-wars-light-side",
@@ -1127,7 +1291,9 @@
     "product": null,
     "front": "/decks/star-wars-light-side-front.jpg",
     "back": "/decks/star-wars-light-side-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs3fq011nseb3wnhpfn3gpe-star-wars-light-side-v1"
+    "hub": "https://playingcardhub.com/decks/01jgs3fq011nseb3wnhpfn3gpe-star-wars-light-side-v1",
+    "price": 13.99,
+    "priceSource": "listed"
   },
   {
     "id": "aviary",
@@ -1141,7 +1307,9 @@
     "product": "/decks/aviary.jpg",
     "front": "/decks/aviary-front.jpg",
     "back": "/decks/aviary-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/JhyaEBgz"
+    "deckcollect": "https://deckcollect.com/deck/JhyaEBgz",
+    "price": 6.49,
+    "priceSource": "listed"
   },
   {
     "id": "disney-villains",
@@ -1155,7 +1323,9 @@
     "product": "/decks/disney-villains.jpg",
     "front": "/decks/disney-villains-front.jpg",
     "back": "/decks/disney-villains-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/R2AeNhrw"
+    "deckcollect": "https://deckcollect.com/deck/R2AeNhrw",
+    "price": 9.99,
+    "priceSource": "listed"
   },
   {
     "id": "samurai-otter-mizu",
@@ -1167,7 +1337,9 @@
     "fit": "cover",
     "product": null,
     "front": "/decks/samurai-otter-mizu-front.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgsdnh0scwtwpxc7x7ghx562-samurai-otter-mizu-edition-standard-blue"
+    "hub": "https://playingcardhub.com/decks/01jgsdnh0scwtwpxc7x7ghx562-samurai-otter-mizu-edition-standard-blue",
+    "price": 16.99,
+    "priceSource": "listed"
   },
   {
     "id": "messymod",
@@ -1180,7 +1352,9 @@
     "fit": "cover",
     "product": "/decks/messymod.jpg",
     "front": "/decks/messymod-front.jpg",
-    "deckcollect": "https://deckcollect.com/deck/tx3yJwvF"
+    "deckcollect": "https://deckcollect.com/deck/tx3yJwvF",
+    "price": 17.99,
+    "priceSource": "listed"
   },
   {
     "id": "little-atlantis",
@@ -1194,7 +1368,9 @@
     "product": "/decks/little-atlantis.jpg",
     "front": "/decks/little-atlantis-front.jpg",
     "back": "/decks/little-atlantis-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs0vn0h3ysx1m8wzh2p1pyg-little-atlantis-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs0vn0h3ysx1m8wzh2p1pyg-little-atlantis-bicycle",
+    "price": 14.99,
+    "priceSource": "listed"
   },
   {
     "id": "autumn",
@@ -1208,7 +1384,9 @@
     "product": null,
     "front": "/decks/autumn-front.jpg",
     "back": "/decks/autumn-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs0r4hqqt08j4etkhvk095f-autumn-green-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs0r4hqqt08j4etkhvk095f-autumn-green-bicycle",
+    "price": 7.99,
+    "priceSource": "estimate"
   },
   {
     "id": "verdana",
@@ -1222,7 +1400,9 @@
     "product": "/decks/verdana.jpg",
     "front": "/decks/verdana-front.jpg",
     "back": "/decks/verdana-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgsacb25tsp70vdmec344azy-verdana"
+    "hub": "https://playingcardhub.com/decks/01jgsacb25tsp70vdmec344azy-verdana",
+    "price": 12.99,
+    "priceSource": "listed"
   },
   {
     "id": "sembras",
@@ -1236,7 +1416,9 @@
     "product": "/decks/sembras.jpg",
     "front": "/decks/sembras-front.jpg",
     "back": "/decks/sembras-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgsbk7ja1vcps9aq5accr6dp-sembras"
+    "hub": "https://playingcardhub.com/decks/01jgsbk7ja1vcps9aq5accr6dp-sembras",
+    "price": 13.99,
+    "priceSource": "listed"
   },
   {
     "id": "itoya-mermaid-back-2",
@@ -1249,7 +1431,9 @@
     "product": null,
     "front": "/decks/itoya-mermaid-back-2-front.jpg",
     "back": "/decks/itoya-mermaid-back-2-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgsbannefq0wrm87cybhsh3b-itoya-mermaid-back-part-2-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgsbannefq0wrm87cybhsh3b-itoya-mermaid-back-part-2-bicycle",
+    "price": 24.99,
+    "priceSource": "estimate"
   },
   {
     "id": "unicorns",
@@ -1262,7 +1446,9 @@
     "fit": "cover",
     "product": null,
     "front": "/decks/unicorns-front.jpg",
-    "deckcollect": "https://deckcollect.com/deck/b33Zn4Y5"
+    "deckcollect": "https://deckcollect.com/deck/b33Zn4Y5",
+    "price": 7.99,
+    "priceSource": "listed"
   },
   {
     "id": "tanuki-yukaku-oiran-dochu",
@@ -1275,7 +1461,9 @@
     "product": null,
     "front": "/decks/tanuki-yukaku-oiran-dochu-front.jpg",
     "back": "/decks/tanuki-yukaku-oiran-dochu-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jxy33a68mds2db0f3pc6yh1a-tanuki-yukaku-oiran-dochu"
+    "hub": "https://playingcardhub.com/decks/01jxy33a68mds2db0f3pc6yh1a-tanuki-yukaku-oiran-dochu",
+    "price": 15.95,
+    "priceSource": "listed"
   },
   {
     "id": "deck-of-robots",
@@ -1289,7 +1477,9 @@
     "product": "/decks/deck-of-robots.jpg",
     "front": "/decks/deck-of-robots-front.jpg",
     "back": "/decks/deck-of-robots-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/ub32YK1r"
+    "deckcollect": "https://deckcollect.com/deck/ub32YK1r",
+    "price": 11.99,
+    "priceSource": "listed"
   },
   {
     "id": "artisan-white-2015",
@@ -1301,7 +1491,9 @@
     "fit": "cover",
     "product": null,
     "front": "/decks/artisan-white-2015-front.jpg",
-    "hub": "https://playingcardhub.com/decks/01kt4yvm3qfrz84e9wgbss248j-artisan-white-2015"
+    "hub": "https://playingcardhub.com/decks/01kt4yvm3qfrz84e9wgbss248j-artisan-white-2015",
+    "price": 11.99,
+    "priceSource": "estimate"
   },
   {
     "id": "goketsu-craft",
@@ -1314,7 +1506,9 @@
     "product": null,
     "front": "/decks/goketsu-craft-front.jpg",
     "back": "/decks/goketsu-craft-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs4nd4egt2j4gsckper43ap-goketsu-craft"
+    "hub": "https://playingcardhub.com/decks/01jgs4nd4egt2j4gsckper43ap-goketsu-craft",
+    "price": 21.99,
+    "priceSource": "listed"
   },
   {
     "id": "vintage",
@@ -1328,7 +1522,9 @@
     "product": null,
     "front": "/decks/vintage-front.jpg",
     "back": "/decks/vintage-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01kb0knvv3zgj405s9t48hj5g4-vintage-classic-bicycle-red-seal"
+    "hub": "https://playingcardhub.com/decks/01kb0knvv3zgj405s9t48hj5g4-vintage-classic-bicycle-red-seal",
+    "price": 9.99,
+    "priceSource": "estimate"
   },
   {
     "id": "chilly-weather-tornado",
@@ -1341,7 +1537,9 @@
     "product": null,
     "front": "/decks/chilly-weather-tornado-front.jpg",
     "back": "/decks/chilly-weather-tornado-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgscdgkgf5r1yqcf6m1sr46h-chilly-weather-tornado-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgscdgkgf5r1yqcf6m1sr46h-chilly-weather-tornado-bicycle",
+    "price": 9.99,
+    "priceSource": "listed"
   },
   {
     "id": "sea-king",
@@ -1354,7 +1552,9 @@
     "product": null,
     "front": "/decks/sea-king-front.jpg",
     "back": "/decks/sea-king-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs59hn2697b59yxv8k44zm9-sea-king-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs59hn2697b59yxv8k44zm9-sea-king-bicycle",
+    "price": 9.99,
+    "priceSource": "estimate"
   },
   {
     "id": "balatro",
@@ -1369,7 +1569,9 @@
     "front": "/decks/balatro-front.jpg",
     "back": "/decks/balatro-back.jpg",
     "cardBack": "/decks/balatro-cardback.jpg",
-    "deckcollect": "https://deckcollect.com/deck/UjBLWZg9"
+    "deckcollect": "https://deckcollect.com/deck/UjBLWZg9",
+    "price": 14.99,
+    "priceSource": "estimate"
   },
   {
     "id": "forbidden-forest",
@@ -1382,7 +1584,9 @@
     "product": null,
     "front": "/decks/forbidden-forest-front.jpg",
     "back": "/decks/forbidden-forest-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs9d3s5jscnyvnepyrcgsvm-forbidden-forest"
+    "hub": "https://playingcardhub.com/decks/01jgs9d3s5jscnyvnepyrcgsvm-forbidden-forest",
+    "price": 24.99,
+    "priceSource": "similar"
   },
   {
     "id": "shin-lim",
@@ -1395,7 +1599,9 @@
     "fit": "cover",
     "product": "/decks/shin-lim.jpg",
     "front": "/decks/shin-lim-front.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs9mctqvenb7mw1cec08pk5-shin-lim-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs9mctqvenb7mw1cec08pk5-shin-lim-bicycle",
+    "price": 14.99,
+    "priceSource": "listed"
   },
   {
     "id": "midway-gardens",
@@ -1409,7 +1615,9 @@
     "product": "/decks/midway-gardens.jpg",
     "front": "/decks/midway-gardens-front.jpg",
     "back": "/decks/midway-gardens-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/9JxFqgRu"
+    "deckcollect": "https://deckcollect.com/deck/9JxFqgRu",
+    "price": 18,
+    "priceSource": "listed"
   },
   {
     "id": "stargazer-observatory",
@@ -1423,7 +1631,9 @@
     "product": "/decks/stargazer-observatory.jpg",
     "front": "/decks/stargazer-observatory-front.jpg",
     "back": "/decks/stargazer-observatory-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs7de0z95st0xhktzcy61bv-stargazer-observatory-bicycle"
+    "hub": "https://playingcardhub.com/decks/01jgs7de0z95st0xhktzcy61bv-stargazer-observatory-bicycle",
+    "price": 7.99,
+    "priceSource": "listed"
   },
   {
     "id": "ramen-heads",
@@ -1437,7 +1647,9 @@
     "product": "/decks/ramen-heads.jpg",
     "front": "/decks/ramen-heads-front.jpg",
     "back": "/decks/ramen-heads-back.jpg",
-    "deckcollect": "https://deckcollect.com/deck/kMiKT9MV"
+    "deckcollect": "https://deckcollect.com/deck/kMiKT9MV",
+    "price": 20,
+    "priceSource": "listed"
   },
   {
     "id": "voyager",
@@ -1451,7 +1663,9 @@
     "product": "/decks/voyager.jpg",
     "front": "/decks/voyager-front.jpg",
     "back": "/decks/voyager-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs244nc9g1zk88d4jjywhtp-voyager"
+    "hub": "https://playingcardhub.com/decks/01jgs244nc9g1zk88d4jjywhtp-voyager",
+    "price": 12.95,
+    "priceSource": "listed"
   },
   {
     "id": "the-beatles",
@@ -1464,7 +1678,9 @@
     "product": null,
     "front": "/decks/the-beatles-front.jpg",
     "back": "/decks/the-beatles-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs7d2vfzzkesz1ewe83we5p-the-beatles-green"
+    "hub": "https://playingcardhub.com/decks/01jgs7d2vfzzkesz1ewe83we5p-the-beatles-green",
+    "price": 14.99,
+    "priceSource": "estimate"
   },
   {
     "id": "moon-white-holo",
@@ -1477,7 +1693,9 @@
     "product": null,
     "front": "/decks/moon-white-holo-front.jpg",
     "source": "https://www.ukplayingcardcompany.co.uk/product/moon-white-holo-playing-cards/",
-    "hub": "https://playingcardhub.com/decks/01kjr1k1q4ffgpedqsawt44qac-moon-white-holo-gilded"
+    "hub": "https://playingcardhub.com/decks/01kjr1k1q4ffgpedqsawt44qac-moon-white-holo-gilded",
+    "price": 16.9,
+    "priceSource": "listed"
   },
   {
     "id": "bicycle-serenity",
@@ -1491,7 +1709,9 @@
     "front": "/decks/bicycle-serenity-front.jpg",
     "source": "https://emilysleights52.com/products/bicycle-serenity-playing-cards",
     "back": "/decks/bicycle-serenity-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01kpvt2bvhgmajhmf2ztanaw8x-bicycle-serenity-standard"
+    "hub": "https://playingcardhub.com/decks/01kpvt2bvhgmajhmf2ztanaw8x-bicycle-serenity-standard",
+    "price": 15,
+    "priceSource": "listed"
   },
   {
     "id": "lady-moon",
@@ -1505,6 +1725,8 @@
     "front": "/decks/lady-moon-front.jpg",
     "source": "https://www.artofplay.com/products/lady-moon-playing-cards",
     "back": "/decks/lady-moon-back.jpg",
-    "hub": "https://playingcardhub.com/decks/01jgs3e93qgcdr8v3g8tcd92dh-lady-moon"
+    "hub": "https://playingcardhub.com/decks/01jgs3e93qgcdr8v3g8tcd92dh-lady-moon",
+    "price": 18,
+    "priceSource": "listed"
   }
 ]
