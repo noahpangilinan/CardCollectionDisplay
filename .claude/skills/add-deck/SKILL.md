@@ -1,6 +1,6 @@
 ---
 name: add-deck
-description: Add newly bought playing card decks to the collection site from a photo. Use when Noah shares a photo (or a path to one) of one or more decks and says something like "add this deck", "I bought these", or "new decks". Crops the shelf photo, identifies each deck, pulls tuck scans from PlayingCardHub, updates src/decks.json, and pushes to main so Netlify redeploys.
+description: Add newly bought playing card decks to the collection site from a photo. Use when Noah shares a photo (or a path to one) of one or more decks and says something like "add this deck", "I bought these", or "new decks". Also use to fill in missing deck pictures/scans for decks already on the site. Crops the shelf photo, identifies each deck, finds tuck scans on PlayingCardHub, updates src/decks.json, and pushes to main so Netlify redeploys.
 ---
 
 # Add decks from a photo
@@ -31,14 +31,34 @@ a second copy: plan `npm run -s deck bump <id>` instead of a new entry, and skip
 - Read `public/decks/<id>-photo.jpg` and re-crop until it's tight and upright.
 
 ## 4. Find the scans
-- WebSearch `site:playingcardhub.com "<name>"` (add the brand if the results are noisy). The site's own search
-  is client-rendered, so don't fetch it.
-- Pick the `https://playingcardhub.com/decks/<ulid>-<slug>` page for the exact edition. Editions and colours
-  are easy to mix up, so WebFetch the page and compare it with the crop: colour, year, gilding, "V2", etc.
-- `npm run -s deck hub <id> <hub url>` downloads the front scan, plus the back scan if the page has one.
-  Read the front to confirm it matches.
+Use `npm run -s deck search <words…>`. It queries PlayingCardHub's own search and lists the best name matches
+first (★ = every query word is in the name). Don't use WebSearch for this: the site is barely indexed and
+misses decks that exist.
+
+**How PlayingCardHub names decks.** Its names rarely match the tuck box word for word:
+- Brand as a bracketed suffix: `Garden Gnome [Bicycle]`, `Jules Verne [Bicycle]`. Sometimes it's a prefix
+  instead: `Bicycle Serenity Standard`.
+- Colour or variant in parentheses: `Moon (White Holo)`, `Memento Mori V2 (White)`.
+- Finish or edition tags: `[Gilded]`, `Standard`, `Deluxe Edition`, `V2`, `(Numbered)`.
+- Different editions are separate pages (`Lady Moon` vs `Lady Moon V2`). User uploads also create
+  near-duplicates (`Moon (White Holo) [Gilded]` vs `MOON (White HOLO) deck`).
+
+**Search strategy:**
+1. Start with the deck's distinctive words, without the brand or "playing cards": `search lady moon`.
+2. No ★? Widen with `--pages 5`, then try variants: add or drop the brand, add the colour, try `gilded`, `v2`
+   or `standard`. The search ignores punctuation and brackets.
+3. Common words (`moon`, `standard`, `red`) flood the results. Add the colour or finish so the right deck ranks first.
+4. Several ★ results? Pick the edition that matches the photo: gilded edges, colour, version number, year
+   on the seal. Prefer the cleanly named page with a front scan over a user-upload duplicate.
+
+**Download and confirm:**
+- `npm run -s deck hub <id> <hub url>` saves the front scan, plus the back scan if the page has one. For a
+  deck already in decks.json, it also points that entry's `front`/`image`/`back`/`hub` at the new scans.
+- Read the front scan next to `<id>-photo.jpg`. If it's the wrong edition, rerun `hub` with the other URL;
+  it overwrites.
 - Optional: a deckcollect.com deck page (`--deckcollect`) or a shop page (`--source`) for extra links.
-- If no hub page exists, carry on anyway: `add` uses the shelf crop as the front image.
+- No match after a real attempt? Carry on anyway: `add` uses the shelf crop as the front image, and
+  `check` lists the deck as still missing a scan.
 
 ## 5. Add
 `npm run -s deck add -- --id <id> --name "<Name>" --brand "<Brand>" [--qty N] [--hub URL] [--deckcollect URL] [--source URL]`
@@ -58,3 +78,10 @@ a second copy: plan `npm run -s deck bump <id>` instead of a new entry, and skip
 - Anything uncertain (couldn't read the title, two plausible editions, no hub match) → list the doubts and
   ask before committing.
 - Leave the raw photo in `inbox/`. It's gitignored.
+
+## Filling in missing scans
+When Noah asks to "update the missing pictures" (often with PlayingCardHub names for them):
+- `npm run -s deck check` lists decks still using their shelf photo as the front.
+- For each one: `search` (use Noah's name verbatim if he gave one), then `hub <existing id> <url>`, then
+  compare the scan with the photo. No `add` is needed.
+- Then verify (step 6) and commit as `Add PlayingCardHub scans for <names>`.

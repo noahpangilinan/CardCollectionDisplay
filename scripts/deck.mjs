@@ -17,10 +17,12 @@ const USAGE = `Usage: npm run deck <command> -- [args]
   grid  <photo>                          photo with a labeled 10% grid -> inbox/.grid-<name>.jpg
   crop  <photo> <id> --box x,y,w,h [--rotate 90|180|270]
                                          crop (fractions 0-1), turn upright -> <id>-photo.jpg
+  search <words...> [--pages N]          find PlayingCardHub deck pages, best name matches first (★ = all words)
   hub   <id> <playingcardhub url>        download tuck front/back scans -> <id>-front/-back.jpg
+                                         (also updates the entry if <id> is already in decks.json)
   add   --id --name --brand [--qty N] [--hub URL] [--deckcollect URL] [--source URL]
   bump  <id> [n]                         add n (default 1) to a deck's qty
-  check                                  validate decks.json against public/decks/`
+  check                                  validate decks.json, list decks still missing a scan`
 
 // ---------- helpers ----------
 
@@ -117,12 +119,45 @@ async function crop([photo, id], { box, rotate }) {
   await saveJpeg(cropped, `${id}-photo.jpg`)
 }
 
+const words = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim().split(' ').filter(Boolean)
+const unescape = (s) =>
+  s.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+
+// PlayingCardHub's /decks?q= search is server-rendered (25 per page) but not ranked by relevance,
+// so pull a few pages and rank by how many of the query's words appear in each deck name.
+async function search(pos, { pages = '2' }) {
+  const query = pos.join(' ')
+  if (!query) fail('search needs a query, e.g. npm run deck search lady moon')
+  const found = new Map()
+  for (let page = 1; page <= Number(pages); page++) {
+    const url = `https://playingcardhub.com/decks?${new URLSearchParams({ q: query, page })}`
+    const res = await fetch(url)
+    if (!res.ok) fail(`fetching ${url} -> HTTP ${res.status}`)
+    const html = await res.text()
+    const re = /href="(https:\/\/playingcardhub\.com\/decks\/01[a-z0-9]{24}-[a-z0-9-]*)"[^>]*>\s*<img src="[^"]*" alt="([^"]*?) Thumbnail"/g
+    const before = found.size
+    for (const [, link, name] of html.matchAll(re)) if (!found.has(link)) found.set(link, unescape(name))
+    if (found.size === before) break
+  }
+  const want = words(query)
+  const ranked = [...found]
+    .map(([link, name]) => {
+      const have = new Set(words(name))
+      return { link, name, score: want.filter((w) => have.has(w)).length / want.length }
+    })
+    .sort((a, b) => b.score - a.score || a.name.length - b.name.length)
+  if (!ranked.length) fail(`no results for "${query}". Try fewer or different words`)
+  for (const r of ranked.slice(0, 12)) console.log(`${r.score === 1 ? '★' : ' '} ${r.name}\n    ${r.link}`)
+}
+
 async function hub([id, url]) {
   checkId(id)
   if (!/^https:\/\/playingcardhub\.com\/decks\//.test(url ?? '')) fail('hub needs a https://playingcardhub.com/decks/... url')
+  url = url.split(/[?#]/)[0]
   const res = await fetch(url)
   if (!res.ok) fail(`fetching ${url} -> HTTP ${res.status}`)
   const html = (await res.text()).replace(/\\\//g, '/')
+  const got = []
   for (const side of ['front', 'back']) {
     const m = html.match(new RegExp(`https://[a-z0-9.]+cloudfront\\.net/decks/700x500/\\d+_${side}\\.jpg`))
     if (!m) {
@@ -132,7 +167,18 @@ async function hub([id, url]) {
     const img = await fetch(m[0])
     if (!img.ok) fail(`downloading ${m[0]} -> HTTP ${img.status}`)
     await saveJpeg(Buffer.from(await img.arrayBuffer()), `${id}-${side}.jpg`)
+    got.push(side)
   }
+
+  // If the deck is already in the collection, point its entry at the new scans.
+  const data = readDecks()
+  const deck = data.decks.find((d) => d.id === id)
+  if (!deck || !got.length) return
+  if (got.includes('front')) deck.front = deck.image = pub(`${id}-front.jpg`)
+  if (got.includes('back')) deck.back = pub(`${id}-back.jpg`)
+  deck.hub = url
+  writeDecks(data)
+  console.log(`✓ updated "${deck.name}" in decks.json`)
 }
 
 function add(_, opts) {
@@ -192,11 +238,13 @@ function check() {
     process.exit(1)
   }
   console.log(`✓ ${decks.length} designs, ${decks.reduce((n, d) => n + d.qty, 0)} decks, all files present`)
+  const noScan = decks.filter((d) => d.front === d.photo)
+  if (noScan.length) console.log(`- using the shelf photo as the front (no scan yet): ${noScan.map((d) => d.id).join(', ')}`)
 }
 
 // ---------- main ----------
 
-const commands = { grid, crop, hub, add, bump, check }
+const commands = { grid, crop, search, hub, add, bump, check }
 const [cmd, ...rest] = process.argv.slice(2)
 if (!commands[cmd]) {
   console.log(USAGE)

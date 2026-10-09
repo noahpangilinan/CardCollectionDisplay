@@ -1472,11 +1472,12 @@
     "brand": "Moon",
     "qty": 1,
     "photo": "/decks/moon-white-holo-photo.jpg",
-    "image": "/decks/moon-white-holo-photo.jpg",
+    "image": "/decks/moon-white-holo-front.jpg",
     "fit": "cover",
     "product": null,
-    "front": "/decks/moon-white-holo-photo.jpg",
-    "source": "https://www.ukplayingcardcompany.co.uk/product/moon-white-holo-playing-cards/"
+    "front": "/decks/moon-white-holo-front.jpg",
+    "source": "https://www.ukplayingcardcompany.co.uk/product/moon-white-holo-playing-cards/",
+    "hub": "https://playingcardhub.com/decks/01kjr1k1q4ffgpedqsawt44qac-moon-white-holo-gilded"
   },
   {
     "id": "bicycle-serenity",
@@ -1484,11 +1485,13 @@
     "brand": "Bicycle",
     "qty": 1,
     "photo": "/decks/bicycle-serenity-photo.jpg",
-    "image": "/decks/bicycle-serenity-photo.jpg",
+    "image": "/decks/bicycle-serenity-front.jpg",
     "fit": "cover",
     "product": null,
-    "front": "/decks/bicycle-serenity-photo.jpg",
-    "source": "https://emilysleights52.com/products/bicycle-serenity-playing-cards"
+    "front": "/decks/bicycle-serenity-front.jpg",
+    "source": "https://emilysleights52.com/products/bicycle-serenity-playing-cards",
+    "back": "/decks/bicycle-serenity-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01kpvt2bvhgmajhmf2ztanaw8x-bicycle-serenity-standard"
   },
   {
     "id": "lady-moon",
@@ -1496,10 +1499,12 @@
     "brand": "Art of Play",
     "qty": 1,
     "photo": "/decks/lady-moon-photo.jpg",
-    "image": "/decks/lady-moon-photo.jpg",
+    "image": "/decks/lady-moon-front.jpg",
     "fit": "cover",
     "product": null,
-    "front": "/decks/lady-moon-photo.jpg",
-    "source": "https://www.artofplay.com/products/lady-moon-playing-cards"
+    "front": "/decks/lady-moon-front.jpg",
+    "source": "https://www.artofplay.com/products/lady-moon-playing-cards",
+    "back": "/decks/lady-moon-back.jpg",
+    "hub": "https://playingcardhub.com/decks/01jgs3e93qgcdr8v3g8tcd92dh-lady-moon"
   }
 ]
