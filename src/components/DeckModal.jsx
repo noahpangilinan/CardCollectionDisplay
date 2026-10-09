@@ -82,6 +82,11 @@ export default function DeckModal({ deck, onClose, onPrev, onNext, position }) {
           </p>
           <h2>{deck.name}</h2>
           <p className="modal-brand">{deck.brand}</p>
+          {deck.price !== undefined && (
+            <p className="modal-price">
+              {deck.priceSource === 'listed' ? '' : '≈ '}${deck.price.toFixed(2)} retail
+            </p>
+          )}
           {deck.qty > 1 && <p className="modal-qty">{deck.qty} copies on the shelf</p>}
 
           {views.length > 1 && (
