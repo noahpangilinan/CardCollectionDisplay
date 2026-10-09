@@ -667,12 +667,12 @@
     "qty": 1,
     "photo": "/decks/cherry-casino-monte-carlo-photo.jpg",
     "image": "/decks/cherry-casino-monte-carlo-front.jpg",
-    "source": "https://www.playingcarddecks.com/products/cherry-casino-house-deck-monte-carlo-black-gold-playing-cards-uspcc",
+    "source": "https://playingcarddecks.com/products/cherry-casino-monte-carlo-black-gold-playing-cards-uspcc",
     "fit": "cover",
     "product": "/decks/cherry-casino-monte-carlo.jpg",
     "front": "/decks/cherry-casino-monte-carlo-front.jpg",
     "deckcollect": "https://deckcollect.com/deck/p6nklVeM",
-    "price": 74.95,
+    "price": 15,
     "priceSource": "listed"
   },
   {
@@ -806,13 +806,13 @@
     "qty": 1,
     "photo": "/decks/cherry-casino-black-hawk-photo.jpg",
     "image": "/decks/cherry-casino-black-hawk-front.jpg",
-    "source": "https://www.playingcarddecks.com/products/cherry-casino-house-deck-black-hawk-playing-cards-uspcc",
+    "source": "https://playingcarddecks.com/products/cherry-casino-v3-black-playing-cards-uspcc",
     "fit": "cover",
     "product": "/decks/cherry-casino-black-hawk.jpg",
     "front": "/decks/cherry-casino-black-hawk-front.jpg",
     "back": "/decks/cherry-casino-black-hawk-back.jpg",
     "hub": "https://playingcardhub.com/decks/01jgs1dacea0a34js9zrw3h6ha-cherry-casino-v3-black-hawk",
-    "price": 74.95,
+    "price": 15,
     "priceSource": "listed"
   },
   {

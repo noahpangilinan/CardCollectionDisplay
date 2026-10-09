@@ -68,6 +68,9 @@ or sets). Record the price per deck, tagged with how it was found:
 - `estimate`: no listing; judge from comparable decks (mass-market Bicycle ~$7–10, theory11 ~$13–15,
   indie/craft/gilded ~$18–30).
 If Noah says what he actually paid, use that as `listed`.
+Shops often list a limited, numbered or "House Deck" version under the same name at several times the price
+(e.g. Cherry Casino House Deck $74.95 vs the standard $13.99). Assume the standard edition unless the photo
+shows a numbered seal or Noah says otherwise.
 
 ## 6. Add
 `npm run -s deck add -- --id <id> --name "<Name>" --brand "<Brand>" [--qty N] [--hub URL] [--deckcollect URL] [--source URL] --price <n> --price-source <listed|similar|estimate>`
